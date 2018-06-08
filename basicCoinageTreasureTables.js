@@ -8,7 +8,7 @@ on("ready", function() {
     coinageTableForLevel = FindOrMakeObjector.findOrMake(tableData);
 
     FindOrMakeObjector.setMode("tableitem");
-    weight = maxRoll - minRoll;
+    weight = (maxRoll - minRoll) + 1;
     rollabletableid = coinageTableForLevel.id;
     itemData = {"_rollabletableid": rollabletableid, "name": itemDesc, "weight": weight}
     FindOrMakeObjector.findOrMake(itemData);
