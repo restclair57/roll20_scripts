@@ -7,7 +7,7 @@ const minorMagicWeapons = {
     [26,45,"masterwork Silver dagger"],
     [46,65,"masterwork Cold iron longsword"],
     [66,75,"Javelin of lightning"],
-    [76,80,"Slaying arrow"],
+    [76,80,"Slaying arrow ([[1t[baneTargets]]])"],
     [81,90,"Adamantine dagger"],
     [91,100,"Adamantine battleaxe"]
   ]
@@ -21,7 +21,7 @@ const mediumMagicWeapons = {
     [10,15,"Slaying arrow"],
     [16,24,"Adamantine dagger"],
     [25,33,"Adamantine battleaxe"],
-    [34,37,"Slaying arrow (greater)"],
+    [34,37,"Slaying arrow (greater) ([[1t[baneTargets]]])"],
     [38,40,"Shatterspike"],
     [41,46,"Dagger of venom"],
     [47,51,"Trident of warning"],
