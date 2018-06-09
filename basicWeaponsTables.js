@@ -21,8 +21,8 @@ const commonMeleeWeaponsItems = {
   ]
 }
 
-const uncommonMeleeWeaponsItems = {
-  "name": "uncommonMeleeWeaponsItems",
+const uncommonWeaponsItems = {
+  "name": "uncommonWeaponsItems",
   "showplayers": true,
   "entries": [
     [1,3,"orc double axe"],
@@ -101,8 +101,19 @@ const commonAmmunitionItems = {
   ]
 };
 
+
+const randomWeaponsTable = {
+  "name": "randomWeaponsTable",
+  "showplayers": false,
+  "entries": [
+    [1,70,"[[1t[commonMeleeWeaponsItems]]]"],
+    [71,80,"[[1t[uncommonWeaponsItems]]]"],
+    [81,100,"[[1t[commonRangedWeaponsItems]]]"]
+  ]
+};
+
 on("ready", function() {
-  var basicWeaponsTables = [commonMeleeWeaponsItems, uncommonMeleeWeaponsItems, commonRangedWeaponsItems, commonAmmunitionItems];
+  var basicWeaponsTables = [commonMeleeWeaponsItems, uncommonWeaponsItems, commonRangedWeaponsItems, commonAmmunitionItems, randomWeaponsTable];
   _.each(basicWeaponsTables, function(tableData) {
     RollableTableManager.findOrMake(tableData);
   });
