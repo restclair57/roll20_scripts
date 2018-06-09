@@ -21,8 +21,8 @@ const minorMagicArmorAndShields = {
     [61,80,"+1 armor"],
     [81,85,"+2 shield"],
     [86,87,"+2 armor"],
-    [88,89,"specific armor"],
-    [90,91,"specific shield"],
+    [88,89,"[[1t[minorMagicArmors]]]"],
+    [90,91,"[[1t[minorMagicShields]]]"],
     [92,100,"special ability and roll again"]
   ]
 };
@@ -32,7 +32,7 @@ const minorMagicWeapons = {
   "entries": [
     [1,70,"+1 weapon"],
     [71,85,"+2 weapon"],
-    [86,90,"specific weapon"],
+    [86,90,"[[1t[minorMagicWeapons]]]"],
     [91,100,"special ability and roll again"]
   ]
 };
@@ -303,8 +303,8 @@ const mediumMagicArmorAndShields = {
     [41,50,"+3 armor"],
     [51,55,"+4 shield"],
     [56,57,"+4 armor"],
-    [58,60,"specific armor"],
-    [61,63,"specific shield"],
+    [58,60,"[[1t[mediumMagicArmors]]]"],
+    [61,63,"[[1t[mediumMagicShields]]]"],
     [64,100,"special ability and roll again"]
   ]
 };
@@ -316,7 +316,7 @@ const mediumMagicWeapons = {
     [11,29,"+2 weapon"].
     [30,58,"+3 weapon"],
     [59,62,"+4 weapon"],
-    [63,68,"specific weapon"],
+    [63,68,"[[1t[mediumMagicWeapons]]]"],
     [69,100,"special ability and roll again"]
   ]
 };
@@ -643,8 +643,8 @@ const majorMagicArmorAndShields = {
     [28,38,"+4 armor"],
     [39,49,"+5 shield"],
     [50,57,"+5 armor"],
-    [58,60,"specific armor"],
-    [61,63,"specific shield"],
+    [58,60,"[[1t[majorMagicArmors]]]"],
+    [61,63,"[[1t[majorMagicShields]]]"],
     [64,100,"special ability and roll again"]
   ]
 };
@@ -655,7 +655,7 @@ const majorMagicWeapons = {
     [1,20,"+3 weapon"],
     [21,38,"+4 weapon"],
     [39,49,"+5 weapon"],
-    [50,63,"specific weapon"],
+    [50,63,"[[1t[majorMagicWeapons]]]"],
     [64,100,"special ability and roll again"]
   ]
 };
