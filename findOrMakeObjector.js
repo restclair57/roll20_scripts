@@ -17,10 +17,10 @@ var FindOrMakeObjector = FindOrMakeObjector || (function () {
   function findOrMake(objectData) {
     var foundObjects = find(objectData);
     if(_.isEmpty(foundObjects)) {
-      log("creating " + FindOrMakeObjector.mode + " object with data " + objectData);
+      log("creating " + FindOrMakeObjector.mode + " object with name " + objectData.name);
       return make(objectData);
     } else {
-      log("found " + FindOrMakeObjector.mode + " object with data " + objectData);
+      log("found " + FindOrMakeObjector.mode + " object with name " + objectData.name);
       return _.first(foundObjects);
     };
   };

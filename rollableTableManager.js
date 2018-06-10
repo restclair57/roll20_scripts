@@ -16,19 +16,24 @@ var RollableTableManager = RollableTableManager || (function () {
     tableObject = FindOrMakeObjector.findOrMake(fomObject);
     
     FindOrMakeObjector.setMode("tableitem");
-    var minRoll, maxRoll, itemName, weight;
-    if(tableData.hasOwnProperty('entries')) {
-      _.each(tableData.entries, function(itemData) {
-        [minRoll, maxRoll, itemName] = itemData;
-        weight = (maxRoll - minRoll) + 1;
-        FindOrMakeObjector.findOrMake({"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
-      });
-    } else {
-      _.each(tableData.simpleEntries, function(entryName) {
-        FindOrMakeObjector.findOrMake({"name": entryName, "_rollabletableid": tableObject.id});
-      });
-    }
+    var minRoll, maxRoll, itemName, weight, entryType;
+    entryType = tableData.entryType;
+    _.each(tableData.entries, function(itemData) {
+      weight = getWeight(itemData, entryType);
+      itemName = _.last(itemData);
+      log(itemData);
+      FindOrMakeObjector.findOrMake({"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
+    });
     
+  };
+  
+  function getWeight(iData, eType) {
+    log(eType);
+    switch(eType) {
+      case 'simple': return 1;
+      case 'rollWeights': return ((iData[1] - iData[0])+1);
+      case 'specified': return iData[0];
+    };
   };
   
   

@@ -1,6 +1,7 @@
 const minorMagicArmors = {
   "name": "minorMagicArmors",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,50,"Mithral shirt"],
     [51,80,"Dragonhide plate"],
@@ -12,6 +13,7 @@ const minorMagicArmors = {
 const mediumMagicArmors = {
   "name": "mediumMagicArmors",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,25,"Mithral shirt"],
     [26,45,"Dragonhide plate"],
@@ -27,6 +29,7 @@ const mediumMagicArmors = {
 const majorMagicArmors = {
   "name": "majorMagicArmors",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"Adamantine breastplate"],
     [11,20,"Dwarven plate"],
@@ -43,6 +46,7 @@ const majorMagicArmors = {
 const minorMagicShields = {
   "name": "minorMagicShields",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,30,"Darkwood buckler"],
     [31,80,"Darkwood shield"],
@@ -54,6 +58,7 @@ const minorMagicShields = {
 const mediumMagicShields = {
   "name": "mediumMagicShields",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,20,"Darkwood buckler"],
     [21,45,"Darkwood shield"],
@@ -68,6 +73,7 @@ const mediumMagicShields = {
 const majorMagicShields = {
   "name": "majorMagicShields",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,20,"Caster’s shield"],
     [21,40,"Spined shield"],
@@ -82,6 +88,7 @@ const majorMagicShields = {
 const minorMagicArmorAbilities = {
   "name": "minorMagicArmorAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,25,"Glamered"],
     [26,32,"Fortification, light"],
@@ -99,6 +106,7 @@ const minorMagicArmorAbilities = {
 const mediumMagicArmorAbilities = {
   "name": "mediumMagicArmorAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,5,"Glamered"],
     [6,8,"Fortification, light"],
@@ -126,6 +134,7 @@ const mediumMagicArmorAbilities = {
 const majorMagicArmorAbilities = {
   "name": "majorMagicArmorAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"Glamered"],
     [4,4,"Fortification, light"],
@@ -168,6 +177,7 @@ const majorMagicArmorAbilities = {
 const minorMagicShieldAbilities = {
   "name": "minorMagicShieldAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,20,"Arrow catching"],
     [21,40,"Bashing"],
@@ -183,6 +193,7 @@ const minorMagicShieldAbilities = {
 const mediumMagicShieldAbilities = {
   "name": "mediumMagicShieldAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"Arrow catching"],
     [11,20,"Bashing"],
@@ -207,6 +218,7 @@ const mediumMagicShieldAbilities = {
 const majorMagicShieldAbilities = {
   "name": "majorMagicShieldAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,5,"Arrow catching"],
     [6,8,"Bashing"],

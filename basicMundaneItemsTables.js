@@ -1,6 +1,7 @@
 const alchemicalItemsData = {
   "name": "alchemicalItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,12,"[[1d4 flasks alchemist’s fire]]"],
     [13,24,"[[2d4 flasks acid]]"],
@@ -16,6 +17,7 @@ const alchemicalItemsData = {
 const armorItemsData = {
   "name": "armorItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,12,"chain shirt"],
     [13,18,"masterwork studded leather"],
@@ -31,6 +33,7 @@ const armorItemsData = {
 const darkwoodShieldsItemsData = {
   "name": "darkwoodShieldsItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,50,"buckler"],
     [51,100,"shield"]
@@ -40,6 +43,7 @@ const darkwoodShieldsItemsData = {
 const masterworkShieldsItemsData = {
   "name": "masterworkShieldsItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,17,"buckler"],
     [18,40,"light wooden shield"],
@@ -52,6 +56,7 @@ const masterworkShieldsItemsData = {
 const weaponsItemsData = {
   "name": "weaponsItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,50,"masterwork [[1t[commonMeleeWeaponsItems]]]"],
     [51,70,"masterwork [[1t[uncommonMeleeWeaponsItems]]]"],
@@ -62,6 +67,7 @@ const weaponsItemsData = {
 const toolsAndGearItemsData = {
   "name": "toolsAndGearItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"empty backpack"],
     [4,6,"crowbar"],
@@ -89,6 +95,7 @@ const toolsAndGearItemsData = {
 const mundaneItemsData = {
   "name": "mundaneItems",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,17,"[[1t[alchemicalItems]]]"],
     [18,21,"small [[1t[armorItems]]]"],

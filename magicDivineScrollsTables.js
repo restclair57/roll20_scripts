@@ -1,6 +1,7 @@
 const divineZeroSpells = {
   "name": "divineZeroSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,7,"create water"],
     [8,14,"cure minor wounds"],
@@ -22,6 +23,7 @@ const divineZeroSpells = {
 const divineOneSpells = {
   "name": "divineOneSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,1,"alarm"],
     [2,3,"bane"],
@@ -72,6 +74,7 @@ const divineOneSpells = {
 const divineTwoSpells = {
   "name": "divineTwoSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,1,"animal messenger"],
     [2,2,"animal trance"],
@@ -131,6 +134,7 @@ const divineTwoSpells = {
 const divineThreeSpells = {
   "name": "divineThreeSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"animate dead"],
     [3,4,"bestow curse"],
@@ -183,6 +187,7 @@ const divineThreeSpells = {
 const divineFourSpells = {
   "name": "divineFourSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,5,"air walk"],
     [6,7,"antiplant shell"],
@@ -223,6 +228,7 @@ const divineFourSpells = {
 const divineFiveSpells = {
   "name": "divineFiveSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"animal growth"],
     [4,5,"atonement"],
@@ -267,6 +273,7 @@ const divineFiveSpells = {
 const divineSixSpells = {
   "name": "divineSixSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"animate objects"],
     [4,6,"antilife shell"],
@@ -310,6 +317,7 @@ const divineSixSpells = {
 const divineSevenSpells = {
   "name": "divineSevenSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,5,"animate plants"],
     [6,9,"blasphemy"],
@@ -341,6 +349,7 @@ const divineSevenSpells = {
 const divineEightSpells = {
   "name": "divineEightSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"animal shapes"],
     [5,10,"antimagic field"],
@@ -373,6 +382,7 @@ const divineEightSpells = {
 const divineNineSpells = {
   "name": "divineNineSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"antipathy"],
     [5,7,"astral projection"],

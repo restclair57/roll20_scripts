@@ -1,6 +1,7 @@
 const minorMagicWeapons = {
   "name": "minorMagicWeapons",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,15,"Sleep arrow"],
     [16,25,"Screaming bolt"],
@@ -16,6 +17,7 @@ const minorMagicWeapons = {
 const mediumMagicWeapons = {
   "name": "mediumMagicWeapons",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,9,"Javelin of lightning"],
     [10,15,"Slaying arrow"],
@@ -41,6 +43,7 @@ const mediumMagicWeapons = {
 const majorMagicWeapons = {
   "name": "majorMagicWeapons",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"Assassin’s dagger"],
     [5,7,"Shifter’s sorrow"],
@@ -73,6 +76,7 @@ const majorMagicWeapons = {
 const minorMagicMeleeWeaponAbilities = {
   "name": "minorMagicMeleeWeaponAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"Bane ([[1t[baneTargets]]])"],
     [11,17,"Defending"],
@@ -95,6 +99,7 @@ const minorMagicMeleeWeaponAbilities = {
 const mediumMagicMeleeWeaponAbilities = {
   "name": "mediumMagicMeleeWeaponAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,6,"Bane ([[1t[baneTargets]]])"],
     [7,12,"Defending"],
@@ -126,6 +131,7 @@ const mediumMagicMeleeWeaponAbilities = {
 const majorMagicMeleeWeaponAbilities = {
   "name": "majorMagicMeleeWeaponAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"Bane ([[1t[baneTargets]]])"],
     [4,6,"Flaming"],
@@ -160,6 +166,7 @@ const majorMagicMeleeWeaponAbilities = {
 const minorMagicRangedWeaponAbilities = {
   "name": "minorMagicRangedWeaponAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,12,"Bane ([[1t[baneTargets]]])"],
     [13,25,"Distance"],
@@ -177,6 +184,7 @@ const minorMagicRangedWeaponAbilities = {
 const mediumMagicRangedWeaponsAbilities = {
   "name": "mediumMagicRangedWeaponsAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,8,"Bane ([[1t[baneTargets]]])"],
     [9,16,"Distance"],
@@ -201,6 +209,7 @@ const mediumMagicRangedWeaponsAbilities = {
 const majorMagicRangedWeaponsAbilities = {
   "name": "majorMagicRangedWeaponsAbilities",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"Bane ([[1t[baneTargets]]])"],
     [5,8,"Distance"],
@@ -227,6 +236,7 @@ const majorMagicRangedWeaponsAbilities = {
 const baneTargets = {
   "name": "baneTargets",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,5,"Aberrations"],
     [6,9,"Animals"],

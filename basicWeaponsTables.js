@@ -1,6 +1,7 @@
 const commonMeleeWeaponsItems = {
   "name": "commonMeleeWeaponsItems",
   "showplayers": true,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"dagger"],
     [5,14,"greataxe"],
@@ -24,6 +25,7 @@ const commonMeleeWeaponsItems = {
 const uncommonWeaponsItems = {
   "name": "uncommonWeaponsItems",
   "showplayers": true,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"orc double axe"],
     [4,7,"battleaxe"],
@@ -69,6 +71,7 @@ const uncommonWeaponsItems = {
 const commonRangedWeaponsItems = {
   "name": "commonRangedWeaponsItems",
   "showplayers": true,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"[[1t[commonAmmunitionItems]]]"],
     [11,15,"throwing axe"],
@@ -93,6 +96,7 @@ const commonRangedWeaponsItems = {
 const commonAmmunitionItems = {
   "name": "commonAmmunitionItems",
   "showplayers": true,
+  "entryType": "rollWeights",
   "entries": [
     [1,50,"50 Arrows"],
     [51,75,"50 crossbow bolts"],
@@ -105,6 +109,7 @@ const commonAmmunitionItems = {
 const randomWeaponsTable = {
   "name": "randomWeaponsTable",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,70,"[[1t[commonMeleeWeaponsItems]]]"],
     [71,80,"[[1t[uncommonWeaponsItems]]]"],

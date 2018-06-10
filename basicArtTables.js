@@ -1,79 +1,92 @@
 const artDescs1 = {
   "name": "artDescs1",
   "showplayers": false,
-  "simpleEntries": ["silver ewer", "carved bone statuette", "carved ivory statuette", "finely wrought small gold bracelet"]
+  "entryType": "simple",
+  "entries": ["silver ewer", "carved bone statuette", "carved ivory statuette", "finely wrought small gold bracelet"]
 };
   
 const artDescs2 = {
   "name":  "artDescs2",
   "showplayers": false,
-  "simpleEntries": ["cloth of gold vestments", "black velvet mask with numerous citrines", "silver chalice with lapis lazuli gems"]
+  "entryType": "simple",
+  "entries": ["cloth of gold vestments", "black velvet mask with numerous citrines", "silver chalice with lapis lazuli gems"]
 };
 
 const artDescs3 = {
   "name":  "artDescs3",
   "showplayers": false,
-  "simpleEntries": ["large well-made wool tapestry", "brass mug with jade inlays"]
+  "entryType": "simple",
+  "entries": ["large well-made wool tapestry", "brass mug with jade inlays"]
 };
 
 const artDescs4 = {
   "name":  "artDescs4",
   "showplayers": false,
-  "simpleEntries": ["silver comb with moonstones", "silver-plated steel longsword with jet jewel in hilt"]
+  "entryType": "simple",
+  "entries": ["silver comb with moonstones", "silver-plated steel longsword with jet jewel in hilt"]
 };
 
 const artDescs5 = {
   "name":  "artDescs5",
   "showplayers": false,
-  "simpleEntries": ["carved harp of exotic wood with ivory inlay and zircon gems", "solid gold idol (10 lb.)"]
+  "entryType": "simple",
+  "entries": ["carved harp of exotic wood with ivory inlay and zircon gems", "solid gold idol (10 lb.)"]
 };
 
 const artDescs6 = {
   "name":  "artDescs6",
   "showplayers": false,
-  "simpleEntries": ["gold dragon comb with red garnet eye", "gold and topaz bottle stopper cork", "ceremonial electrum dagger with a star ruby in the pommel"]
+  "entryType": "simple",
+  "entries": ["gold dragon comb with red garnet eye", "gold and topaz bottle stopper cork", "ceremonial electrum dagger with a star ruby in the pommel"]
 };
 
 const artDescs7 = {
   "name":  "artDescs7",
   "showplayers": false,
-  "simpleEntries": ["eyepatch with mock eye of sapphire and moonstone", "fire opal pendant on a fine gold chain", "old masterpiece painting"]
+  "entryType": "simple",
+  "entries": ["eyepatch with mock eye of sapphire and moonstone", "fire opal pendant on a fine gold chain", "old masterpiece painting"]
 };
 
 const artDescs8 = {
   "name":  "artDescs8",
   "showplayers": false,
-  "simpleEntries": ["embroidered silk and velvet mantle with numerous moonstones", "sapphire pendant on gold chain"]
+  "entryType": "simple",
+  "entries": ["embroidered silk and velvet mantle with numerous moonstones", "sapphire pendant on gold chain"]
 };
 
 const artDescs9 = {
   "name":  "artDescs9",
   "showplayers": false,
-  "simpleEntries": ["embroidered and bejeweled glove", "jeweled anklet", "gold music box"]
+  "entryType": "simple",
+  "entries": ["embroidered and bejeweled glove", "jeweled anklet", "gold music box"]
 };
 
 const artDescs10 = {
   "name":  "artDescs10",
   "showplayers": false,
-  "simpleEntries": ["golden circlet with four aquamarines", "a string of small pink pearls (necklace)"]
+  "entryType": "simple",
+  "entries": ["golden circlet with four aquamarines", "a string of small pink pearls (necklace)"]
 };
 
 const artDescs11 = {
   "name":  "artDescs11",
   "showplayers": false,
-  "simpleEntries": ["jeweled gold crown", "jeweled electrum ring"]
+  "entryType": "simple",
+  "entries": ["jeweled gold crown", "jeweled electrum ring"]
 };
 
 const artDescs12 = {
   "name":  "artDescs12",
   "showplayers": false,
-  "simpleEntries": ["gold and ruby ring", "gold cup set with emeralds"]
+  "entryType": "simple",
+  "entries": ["gold and ruby ring", "gold cup set with emeralds"]
 };
 
 
 const basicArtItems = {
   "name": "basicArtObjects",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"[[1t[artDescs1]]] ([[1d10*10]] gp)"],
     [11,25,"[[1t[artDescs2]]] ([[3d6*10]] gp)"],

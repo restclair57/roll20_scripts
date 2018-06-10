@@ -1,6 +1,7 @@
 const arcaneZeroSpells = {
   "name": "arcaneZeroSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"acid splash"],
     [5,8,"arcane mark"],
@@ -30,6 +31,7 @@ const arcaneZeroSpells = {
 const arcaneOneSpells = {
   "name": "arcaneOneSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"alarm"],
     [4,5,"animate rope"],
@@ -80,6 +82,7 @@ const arcaneOneSpells = {
 const arcaneTwoSpells = {
   "name": "arcaneTwoSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,1,"animal messenger"],
     [2,2,"animal trance"],
@@ -145,6 +148,7 @@ const arcaneTwoSpells = {
 const arcaneThreeSpells = {
   "name": "arcaneThreeSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"arcane sight"],
     [3,4,"blink"],
@@ -199,6 +203,7 @@ const arcaneThreeSpells = {
 const arcaneFourSpells = {
   "name": "arcaneFourSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"animate dead"],
     [3,5,"arcane eye"],
@@ -254,6 +259,7 @@ const arcaneFourSpells = {
 const arcaneFiveSpells = {
   "name": "arcaneFiveSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"animal growth"],
     [3,5,"baleful polymorph"],
@@ -307,6 +313,7 @@ const arcaneFiveSpells = {
 const arcaneSixSpells = {
   "name": "arcaneSixSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"acid fog"],
     [3,5,"analyze dweomer"],
@@ -362,6 +369,7 @@ const arcaneSixSpells = {
 const arcaneSevenSpells = {
   "name": "arcaneSevenSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"greater arcane sight"],
     [4,7,"banishment"],
@@ -404,6 +412,7 @@ const arcaneSevenSpells = {
 const arcaneEightSpells = {
   "name": "arcaneEightSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"antipathy"],
     [3,5,"clenched fist"],
@@ -446,6 +455,7 @@ const arcaneEightSpells = {
 const arcaneNineSpells = {
   "name": "arcaneNineSpells",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"astral projection"],
     [4,7,"crushing hand"],

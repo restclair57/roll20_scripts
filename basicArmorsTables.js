@@ -1,6 +1,7 @@
 const basicArmors = {
   "name": "basicArmors",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,1,"padded"],
     [2,2,"leather"],
@@ -20,6 +21,7 @@ const basicArmors = {
 const basicShields = {
   "name": "basicShields",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"buckler"],
     [11,15,"light wooden shield"],
