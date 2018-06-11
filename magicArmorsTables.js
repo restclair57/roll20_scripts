@@ -1,3 +1,17 @@
+const minorMagicArmorAndShields = {
+  "name": "minorMagicArmorAndShields",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,60,"+1 [[1t[basicShields]]] [[1t[minorMagicShieldAbilitiesGateway]]]"],
+    [61,80,"+1 [[1t[basicArmors]]] [[1t[minorMagicArmorAbilitiesGateway]]]"],
+    [81,85,"+2 [[1t[basicShields]]] [[1t[minorMagicShieldAbilitiesGateway]]]"],
+    [86,87,"+2 [[1t[basicArmors]]] [[1t[minorMagicArmorAbilitiesGateway]]]"],
+    [88,89,"[[1t[minorMagicArmors]]] [[1t[minorMagicArmorAbilitiesGateway]]]"],
+    [90,91,"[[1t[minorMagicShields]]] [[1t[minorMagicShieldAbilitiesGateway]]]"]
+  ]
+};
+
 const minorMagicArmors = {
   "name": "minorMagicArmors",
   "showplayers": false,
@@ -9,6 +23,91 @@ const minorMagicArmors = {
   ]
 };
 
+const minorMagicShields = {
+  "name": "minorMagicShields",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,30,"Darkwood buckler"],
+    [31,80,"Darkwood shield"],
+    [81,95,"Mithral heavy shield"],
+    [96,100,"Caster’s shield"]
+  ]
+};
+
+const minorMagicArmorAbilitiesGateway = {
+  "name": "minorMagicArmorAbilitiesGateway",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,91,""],
+    [92,100,"[[1t[minorMagicArmorAbilities]]] [[1t[minorMagicArmorAbilitiesGateway]]]"]
+  ]
+};
+
+const minorMagicArmorAbilities = {
+  "name": "minorMagicArmorAbilities",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,25,"Glamered"],
+    [26,32,"Fortification, light"],
+    [33,52,"Slick"],
+    [53,72,"Shadow"],
+    [73,92,"Silent moves"],
+    [93,96,"Spell resistance (13)"],
+    [97,97,"Slick, improved"],
+    [98,98,"Shadow, improved"],
+    [99,99,"Silent moves, improved"],
+    [100,100,"[[1t[minorMagicArmorAbilities]]] [[1t[minorMagicArmorAbilities]]]"]
+  ]
+};
+
+const minorMagicShieldAbilitiesGateway = {
+  "name": "minorMagicShieldAbilitiesGateway",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,91,""],
+    [92,100,"[[1t[minorMagicShieldAbilities]]] [[1t[minorMagicShieldAbilitiesGateway]]]"]
+  ]
+};
+
+const minorMagicShieldAbilities = {
+  "name": "minorMagicShieldAbilities",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,20,"Arrow catching"],
+    [21,40,"Bashing"],
+    [41,50,"Blinding"],
+    [51,75,"Fortification, light"],
+    [76,92,"Arrow deflection"],
+    [93,97,"Animated"],
+    [98,99,"Spell resistance (13)"],
+    [100,100,"[[1t[minorMagicShieldAbilities]]] [[1t[minorMagicShieldAbilities]]]"]
+  ]
+};
+
+
+
+const mediumMagicArmorAndShields = {
+  "name": "mediumMagicArmorAndShields",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,5,"+1 [[1t[basicShields]]] [[1t[mediumMagicShieldAbilitiesGateway]]]"],
+    [6,10,"+1 [[1t[basicArmors]]] [[1t[mediumMagicArmorAbilitiesGateway]]]"],
+    [11,20,"+2 [[1t[basicShields]]] [[1t[mediumMagicShieldAbilitiesGateway]]]"],
+    [21,30,"+2 [[1t[basicArmors]]] [[1t[mediumMagicArmorAbilitiesGateway]]]"],
+    [31,40,"+3 [[1t[basicShields]]] [[1t[mediumMagicShieldAbilitiesGateway]]]"],
+    [41,50,"+3 [[1t[basicArmors]]] [[1t[mediumMagicArmorAbilitiesGateway]]]"],
+    [51,55,"+4 [[1t[basicShields]]] [[1t[mediumMagicShieldAbilitiesGateway]]]"],
+    [56,57,"+4 [[1t[basicArmors]]] [[1t[mediumMagicArmorAbilitiesGateway]]]"],
+    [58,60,"[[1t[mediumMagicArmors]]] [[1t[mediumMagicArmorAbilitiesGateway]]]"],
+    [61,63,"[[1t[mediumMagicShields]]] [[1t[mediumMagicShieldAbilitiesGateway]]]"]
+  ]
+};
 
 const mediumMagicArmors = {
   "name": "mediumMagicArmors",
@@ -22,36 +121,6 @@ const mediumMagicArmors = {
     [68,82,"Adamantine breastplate"],
     [83,97,"Dwarven plate"],
     [98,100,"Banded mail of luck"]
-  ]
-};
-
-
-const majorMagicArmors = {
-  "name": "majorMagicArmors",
-  "showplayers": false,
-  "entryType": "rollWeights",
-  "entries": [
-    [1,10,"Adamantine breastplate"],
-    [11,20,"Dwarven plate"],
-    [21,32,"Banded mail of luck"],
-    [33,50,"Celestial armor"],
-    [51,60,"Plate armor of the deep"],
-    [61,75,"Breastplate of command"],
-    [76,90,"Mithral full plate of speed"],
-    [91,100,"Demon armor"]
-  ]
-};
-
-
-const minorMagicShields = {
-  "name": "minorMagicShields",
-  "showplayers": false,
-  "entryType": "rollWeights",
-  "entries": [
-    [1,30,"Darkwood buckler"],
-    [31,80,"Darkwood shield"],
-    [81,95,"Mithral heavy shield"],
-    [96,100,"Caster’s shield"]
   ]
 };
 
@@ -70,36 +139,13 @@ const mediumMagicShields = {
   ]
 };
 
-const majorMagicShields = {
-  "name": "majorMagicShields",
+const mediumMagicArmorAbilitiesGateway = {
+  "name": "mediumMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,20,"Caster’s shield"],
-    [21,40,"Spined shield"],
-    [41,60,"Lion’s shield"],
-    [61,90,"Winged shield"],
-    [91,100,"Absorbing shield"]
-  ]
-};
-
-
-
-const minorMagicArmorAbilities = {
-  "name": "minorMagicArmorAbilities",
-  "showplayers": false,
-  "entryType": "rollWeights",
-  "entries": [
-    [1,25,"Glamered"],
-    [26,32,"Fortification, light"],
-    [33,52,"Slick"],
-    [53,72,"Shadow"],
-    [73,92,"Silent moves"],
-    [93,96,"Spell resistance (13)"],
-    [97,97,"Slick, improved"],
-    [98,98,"Shadow, improved"],
-    [99,99,"Silent moves, improved"],
-    [100,100,"[[1t[minorMagicArmorAbilities]]] [[1t[minorMagicArmorAbilities]]]"]
+    [1,63,""],
+    [64,100,"[[1t[mediumMagicArmorAbilities]]] [[1t[mediumMagicArmorAbilitiesGateway]]]"]
   ]
 };
 
@@ -128,6 +174,99 @@ const mediumMagicArmorAbilities = {
     [90,94,"Spell resistance (15)"],
     [95,99,"Wild"],
     [100,100,"[[1t[mediumMagicArmorAbilities]]] [[1t[mediumMagicArmorAbilities]]]"]
+  ]
+};
+
+const mediumMagicShieldAbilitiesGateway = {
+  "name": "mediumMagicShieldAbilitiesGateway",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,63,""],
+    [64,100,"[[1t[mediumMagicShieldAbilities]]] [[1t[mediumMagicShieldAbilitiesGateway]]]"]
+  ]
+};
+
+const mediumMagicShieldAbilities = {
+  "name": "mediumMagicShieldAbilities",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,10,"Arrow catching"],
+    [11,20,"Bashing"],
+    [21,25,"Blinding"],
+    [26,40,"Fortification, light"],
+    [41,50,"Arrow deflection"],
+    [51,57,"Animated"],
+    [58,59,"Spell resistance (13)"],
+    [60,63,"Acid resistance"],
+    [64,67,"Cold resistance"],
+    [68,71,"Electricity resistance"],
+    [72,75,"Fire resistance"],
+    [76,79,"Sonic resistance"],
+    [80,85,"Ghost touch"],
+    [86,95,"Fortification, moderate"],
+    [96,98,"Spell resistance (15)"],
+    [99,99,"Wild"],
+    [100,100,"[1t[mediumMagicShieldAbilities]]] [[1t[mediumMagicShieldAbilities]]]"]
+  ]
+};
+
+
+
+const majorMagicArmorAndShields = {
+  "name": "majorMagicArmorAndShields",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,8,"+3 [[1t[basicShields]]] [[1t[majorMagicShieldAbilitiesGateway]]]"],
+    [9,16,"+3 [[1t[basicArmors]]] [[1t[majorMagicArmorAbilitiesGateway]]]"],
+    [17,27,"+4 [[1t[basicShields]]] [[1t[majorMagicShieldAbilitiesGateway]]]"],
+    [28,38,"+4 [[1t[basicArmors]]] [[1t[majorMagicArmorAbilitiesGateway]]]"],
+    [39,49,"+5 [[1t[basicShields]]] [[1t[majorMagicShieldAbilitiesGateway]]]"],
+    [50,57,"+5 [[1t[basicArmors]]] [[1t[majorMagicArmorAbilitiesGateway]]]"],
+    [58,60,"[[1t[majorMagicArmors]]] [[1t[majorMagicArmorAbilitiesGateway]]]"],
+    [61,63,"[[1t[majorMagicShields]]] [[1t[majorMagicShieldAbilitiesGateway]]]"]
+  ]
+};
+
+const majorMagicArmors = {
+  "name": "majorMagicArmors",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,10,"Adamantine breastplate"],
+    [11,20,"Dwarven plate"],
+    [21,32,"Banded mail of luck"],
+    [33,50,"Celestial armor"],
+    [51,60,"Plate armor of the deep"],
+    [61,75,"Breastplate of command"],
+    [76,90,"Mithral full plate of speed"],
+    [91,100,"Demon armor"]
+  ]
+};
+
+const majorMagicShields = {
+  "name": "majorMagicShields",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,20,"Caster’s shield"],
+    [21,40,"Spined shield"],
+    [41,60,"Lion’s shield"],
+    [61,90,"Winged shield"],
+    [91,100,"Absorbing shield"]
+  ]
+};
+
+
+const majorMagicArmorAbilitiesGateway = {
+  "name": "majorMagicArmorAbilitiesGateway",
+  "showplayers": false,
+  "entryType": "rollWeights",
+  "entries": [
+    [1,63,""],
+    [64,100,"[[1t[majorMagicArmorAbilities]]] [[1t[majorMagicArmorAbilitiesGateway]]]"]
   ]
 };
 
@@ -173,45 +312,13 @@ const majorMagicArmorAbilities = {
   ]
 };
 
-
-const minorMagicShieldAbilities = {
-  "name": "minorMagicShieldAbilities",
+const majorMagicShieldAbilitiesGateway = {
+  "name": "majorMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,20,"Arrow catching"],
-    [21,40,"Bashing"],
-    [41,50,"Blinding"],
-    [51,75,"Fortification, light"],
-    [76,92,"Arrow deflection"],
-    [93,97,"Animated"],
-    [98,99,"Spell resistance (13)"],
-    [100,100,"[[1t[minorMagicShieldAbilities]]] [[1t[minorMagicShieldAbilities]]]"]
-  ]
-};
-
-const mediumMagicShieldAbilities = {
-  "name": "mediumMagicShieldAbilities",
-  "showplayers": false,
-  "entryType": "rollWeights",
-  "entries": [
-    [1,10,"Arrow catching"],
-    [11,20,"Bashing"],
-    [21,25,"Blinding"],
-    [26,40,"Fortification, light"],
-    [41,50,"Arrow deflection"],
-    [51,57,"Animated"],
-    [58,59,"Spell resistance (13)"],
-    [60,63,"Acid resistance"],
-    [64,67,"Cold resistance"],
-    [68,71,"Electricity resistance"],
-    [72,75,"Fire resistance"],
-    [76,79,"Sonic resistance"],
-    [80,85,"Ghost touch"],
-    [86,95,"Fortification, moderate"],
-    [96,98,"Spell resistance (15)"],
-    [99,99,"Wild"],
-    [100,100,"[1t[mediumMagicShieldAbilities]]] [[1t[mediumMagicShieldAbilities]]]"]
+    [1,63,""],
+    [64,100,"[[1t[majorMagicShieldAbilities]]] [[1t[majorMagicShieldAbilitiesGateway]]]"]
   ]
 };
 
@@ -258,17 +365,26 @@ const majorMagicShieldAbilities = {
 
 on("ready", function() {
   var specificMagicArmors = [
+    minorMagicArmorAndShields,
     minorMagicArmors,
-    mediumMagicArmors,
-    majorMagicArmors,
     minorMagicShields,
+    mediumMagicArmorAndShields,
+    mediumMagicArmors,
     mediumMagicShields,
+    majorMagicArmorAndShields,
+    majorMagicArmors,
     majorMagicShields,
+    minorMagicArmorAbilitiesGateway,
     minorMagicArmorAbilities,
+    mediumMagicArmorAbilitiesGateway,
     mediumMagicArmorAbilities,
+    majorMagicArmorAbilitiesGateway,
     majorMagicArmorAbilities,
+    minorMagicShieldAbilitiesGateway,
     minorMagicShieldAbilities,
+    mediumMagicShieldAbilitiesGateway,
     mediumMagicShieldAbilities,
+    majorMagicShieldAbilitiesGateway,
     majorMagicShieldAbilities
   ];
   _.each(specificMagicArmors, function(tableData) {
