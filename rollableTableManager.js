@@ -12,7 +12,7 @@ var RollableTableManager = RollableTableManager || (function () {
     
     fomObject = _.clone(tableData);
     delete fomObject.entries;
-    delete fomObject.simpleEntries;
+    delete fomObject.entryType;
     tableObject = FindOrMakeObjector.findOrMake(fomObject);
     
     FindOrMakeObjector.setMode("tableitem");
