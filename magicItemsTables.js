@@ -13,29 +13,8 @@ const minorMagicItems = {
   ]
 };
 
-const minorMagicArmorAndShields = {
-  "name": "minorMagicArmorAndShields",
-  "showplayers": false,
-  "entries": [
-    [1,60,"+1 [[1t[basicShields]]]"],
-    [61,80,"+1 [[1t[basicArmors]]]"],
-    [81,85,"+2 [[1t[basicShields]]]"],
-    [86,87,"+2 [[1t[basicArmors]]]"],
-    [88,89,"[[1t[minorMagicArmors]]]"],
-    [90,91,"[[1t[minorMagicShields]]]"],
-    [92,100,"special ability and roll again"]
-  ]
-};
-const minorMagicWeapons = {
-  "name": "minorMagicWeapons",
-  "showplayers": false,
-  "entries": [
-    [1,70,"+1 [[1t[randomWeaponsTable]]]"],
-    [71,85,"+2 [[1t[randomWeaponsTable]]]"],
-    [86,90,"[[1t[minorMagicWeapons]]]"],
-    [91,100,"special ability and roll again"]
-  ]
-};
+
+
 const minorMagicPotions = {
   "name": "minorMagicPotions",
   "showplayers": false,
@@ -291,35 +270,8 @@ const mediumMagicItems = {
   ]
 };
 
-const mediumMagicArmorAndShields = {
-  "name": "mediumMagicArmorAndShields",
-  "showplayers": false,
-  "entries": [
-    [1,5,"+1 [[1t[basicShields]]]"],
-    [6,10,"+1 [[1t[basicArmors]]]"],
-    [11,20,"+2 [[1t[basicShields]]]"],
-    [21,30,"+2 [[1t[basicArmors]]]"],
-    [31,40,"+3 [[1t[basicShields]]]"],
-    [41,50,"+3 [[1t[basicArmors]]]"],
-    [51,55,"+4 [[1t[basicShields]]]"],
-    [56,57,"+4 [[1t[basicArmors]]]"],
-    [58,60,"[[1t[mediumMagicArmors]]]"],
-    [61,63,"[[1t[mediumMagicShields]]]"],
-    [64,100,"special ability and roll again"]
-  ]
-};
-const mediumMagicWeapons = {
-  "name": "mediumMagicWeapons",
-  "showplayers": false,
-  "entries": [
-    [1,10,"+1 [[1t[randomWeaponsTable]]]"],
-    [11,29,"+2 [[1t[randomWeaponsTable]]]"].
-    [30,58,"+3 [[1t[randomWeaponsTable]]]"],
-    [59,62,"+4 [[1t[randomWeaponsTable]]]"],
-    [63,68,"[[1t[mediumMagicWeapons]]]"],
-    [69,100,"special ability and roll again"]
-  ]
-};
+
+
 const mediumMagicPotions = {
   "name": "mediumMagicPotions",
   "showplayers": false,
@@ -633,32 +585,8 @@ const majorMagicItems = {
   ]
 };
 
-const majorMagicArmorAndShields = {
-  "name": "majorMagicArmorAndShields",
-  "showplayers": false,
-  "entries": [
-    [1,8,"+3 [[1t[basicShields]]]"],
-    [9,16,"+3 [[1t[basicArmors]]]"],
-    [17,27,"+4 [[1t[basicShields]]]"],
-    [28,38,"+4 [[1t[basicArmors]]]"],
-    [39,49,"+5 [[1t[basicShields]]]"],
-    [50,57,"+5 [[1t[basicArmors]]]"],
-    [58,60,"[[1t[majorMagicArmors]]]"],
-    [61,63,"[[1t[majorMagicShields]]]"],
-    [64,100,"special ability and roll again"]
-  ]
-};
-const majorMagicWeapons = {
-  "name": "majorMagicWeapons",
-  "showplayers": false,
-  "entries": [
-    [1,20,"+3 [[1t[randomWeaponsTable]]]"],
-    [21,38,"+4 [[1t[randomWeaponsTable]]]"],
-    [39,49,"+5 [[1t[randomWeaponsTable]]]"],
-    [50,63,"[[1t[majorMagicWeapons]]]"],
-    [64,100,"special ability and roll again"]
-  ]
-};
+
+
 const majorMagicPotions = {
   "name": "majorMagicPotions",
   "showplayers": false,
