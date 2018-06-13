@@ -406,6 +406,41 @@ const divineNineSpells = {
   ]
 };
 
+const minorMagicDivineScrolls = {
+  "name": "minorMagicDivineScrolls",
+  "showplayers": false,
+  "entries": [
+    [1,5 ,  "[[ [[1d3]]t[divineZeroSpells] ]]"],
+    [6,50,  "[[ [[1d3]]t[divineOneSpells] ]]"],
+    [51,95, "[[ [[1d3]]t[divineTwoSpells] ]]"],
+    [96,100,"[[ [[1d3]]t[divineThreeSpells] ]]"]
+  ]
+};
+
+const mediumMagicDivineScrolls = {
+  "name": "mediumMagicDivineScrolls",
+  "showplayers": false,
+  "entries": [
+    [1,5,   "[[ [[1d4]]t[divineTwoSpells] ]]"],
+    [6,65,  "[[ [[1d4]]t[divineThreeSpells] ]]"],
+    [66,95, "[[ [[1d4]]t[divineFourSpells] ]]"],
+    [96,100,"[[ [[1d4]]t[divineFiveSpells] ]]"]
+  ]
+};
+
+const majorMagicDivineScrolls = {
+  "name": "majorMagicDivineScrolls",
+  "showplayers": false,
+  "entries": [
+    [1,5,   "[[ [[1d6]]t[divineFourSpells] ]]"],
+    [6,50,  "[[ [[1d6]]t[divineFiveSpells] ]]"],
+    [51,70, "[[ [[1d6]]t[divineSixSpells] ]]"],
+    [71,85, "[[ [[1d6]]t[divineSevenSpells] ]]"],
+    [86,95, "[[ [[1d6]]t[divineEightSpells] ]]"],
+    [96,100,"[[ [[1d6]]t[divineNineSpells] ]]"]
+  ]
+};
+
 on("ready", function() {
   var divineSpellSets = [
     divineZeroSpells,

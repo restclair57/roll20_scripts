@@ -484,6 +484,40 @@ const arcaneNineSpells = {
   ]
 };
 
+const minorMagicArcaneScrolls = {
+  "name": "minorMagicArcaneScrolls",
+  "showplayers": false,
+  "entries": [
+    [1,5 ,  "[[ [[1d3]]t[arcaneZeroSpells] ]]"],
+    [6,50,  "[[ [[1d3]]t[arcaneOneSpells] ]]"],
+    [51,95, "[[ [[1d3]]t[arcaneTwoSpells] ]]"],
+    [96,100,"[[ [[1d3]]t[arcaneThreeSpells] ]]"]
+  ]
+};
+
+const mediumMagicArcaneScrolls = {
+  "name": "mediumMagicArcaneScrolls",
+  "showplayers": false,
+  "entries": [
+    [1,5,   "[[ [[1d4]]t[arcaneTwoSpells] ]]"],
+    [6,65,  "[[ [[1d4]]t[arcaneThreeSpells] ]]"],
+    [66,95, "[[ [[1d4]]t[arcaneFourSpells] ]]"],
+    [96,100,"[[ [[1d4]]t[arcaneFiveSpells] ]]"]
+  ]
+};
+
+const majorMagicArcaneScrolls = {
+  "name": "majorMagicArcaneScrolls",
+  "showplayers": false,
+  "entries": [
+    [1,5,   "[[ [[1d6]]t[arcaneFourSpells] ]]"],
+    [6,50,  "[[ [[1d6]]t[arcaneFiveSpells] ]]"],
+    [51,70, "[[ [[1d6]]t[arcaneSixSpells] ]]"],
+    [71,85, "[[ [[1d6]]t[arcaneSevenSpells] ]]"],
+    [86,95, "[[ [[1d6]]t[arcaneEightSpells] ]]"],
+    [96,100,"[[ [[1d6]]t[arcaneNineSpells] ]]"]
+  ]
+};
 
 on("ready", function() {
   var arcaneSpellSets = [
