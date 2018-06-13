@@ -50,18 +50,6 @@ const majorMagicItems = {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 on("ready", function() {
   var magicItems = [
     minorMagicItems,
@@ -72,3 +60,5 @@ on("ready", function() {
     RollableTableManager.findOrMake(tableData);
   });
 });
+
+

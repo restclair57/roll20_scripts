@@ -123,3 +123,5 @@ on("ready", function() {
     RollableTableManager.findOrMake(tableData);
   });
 });
+
+

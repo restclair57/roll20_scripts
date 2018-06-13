@@ -160,3 +160,5 @@ const majorMagicPotions = {
     [100,100,"Magic vestment +5 (oil)"]
   ]
 };
+
+
