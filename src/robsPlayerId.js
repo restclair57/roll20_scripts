@@ -1,4 +1,4 @@
-var RobsPlayerId = RobsPlayerId || (function () {
+Rob20.RobsPlayerId = Rob20.RobsPlayerId || (function () {
   
   'use strict';
   
@@ -14,3 +14,4 @@ var RobsPlayerId = RobsPlayerId || (function () {
   
   return { Get: getRobsPlayerId, get: getRobsPlayerId, getRobsPlayerId: getRobsPlayerId, GetRobsPlayerId: getRobsPlayerId };
 }());
+

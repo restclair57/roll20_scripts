@@ -447,3 +447,4 @@ on('ready',function() {
   RecursiveTable.CheckInstall();
   RecursiveTable.RegisterEventHandlers();
 });
+

@@ -1,4 +1,4 @@
-var FindOrMakeObjector = FindOrMakeObjector || (function () {
+Rob20.FindOrMakeObjector = Rob20.FindOrMakeObjector || (function () {
   
   'use strict';
   
@@ -28,3 +28,4 @@ var FindOrMakeObjector = FindOrMakeObjector || (function () {
   
   return { findOrMake: findOrMake, fOm: findOrMake };
 }());
+

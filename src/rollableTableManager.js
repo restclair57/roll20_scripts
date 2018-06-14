@@ -1,4 +1,4 @@
-var RollableTableManager = RollableTableManager || (function () {
+Rob20.RollableTableManager = Rob20.RollableTableManager || (function () {
   
   'use strict';
   
@@ -36,3 +36,4 @@ var RollableTableManager = RollableTableManager || (function () {
   
   return { findOrMake: findOrMake, fOm: findOrMake };
 }());
+
