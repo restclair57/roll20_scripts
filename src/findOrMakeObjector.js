@@ -4,33 +4,27 @@ var FindOrMakeObjector = FindOrMakeObjector || (function () {
   
   const version = '0.0.1';
   
-  function find(objectData) {
-    var toFind = Object.assign({"_type": FindOrMakeObjector.mode}, objectData);
+  function find(objectType, objectData) {
+    var toFind = Object.assign({"_type": objectType}, objectData);
     return findObjs(toFind);
   }
   
-  function make(objectData) {
+  function make(objectType, objectData) {
     var toCreate = Object.assign({"playerid": RobsPlayerId.get()}, objectData);
-    return createObj(FindOrMakeObjector.mode, toCreate);
+    return createObj(objectType, toCreate);
   }
   
-  function findOrMake(objectData) {
-    var foundObjects = find(objectData);
+  function findOrMake(objectType, objectData) {
+    var foundObjects = find(objectType, objectData);
     if(_.isEmpty(foundObjects)) {
-      log("creating " + FindOrMakeObjector.mode + " object with name " + objectData.name);
-      return make(objectData);
+      log("creating " + objectType + " object with name " + objectData.name);
+      return make(objectType, objectData);
     } else {
-      log("found " + FindOrMakeObjector.mode + " object with name " + objectData.name);
+      log("found " + objectType + " object with name " + objectData.name);
       return _.first(foundObjects);
     };
   };
   
-  function setMode(objectType) {
-    FindOrMakeObjector.mode = objectType;
-  };
   
-  
-  return { setMode: setMode, findOrMake: findOrMake, fOm: findOrMake };
+  return { findOrMake: findOrMake, fOm: findOrMake };
 }());
-
-FindOrMakeObjector.mode = null;

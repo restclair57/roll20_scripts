@@ -8,21 +8,18 @@ var RollableTableManager = RollableTableManager || (function () {
   function findOrMake(tableData) {
     var fomObject, tableObject;
     
-    FindOrMakeObjector.setMode("rollabletable");
-    
     fomObject = _.clone(tableData);
     delete fomObject.entries;
     delete fomObject.entryType;
-    tableObject = FindOrMakeObjector.findOrMake(fomObject);
+    tableObject = FindOrMakeObjector.findOrMake("rollabletable", fomObject);
     
-    FindOrMakeObjector.setMode("tableitem");
     var minRoll, maxRoll, itemName, weight, entryType;
     entryType = tableData.entryType;
     _.each(tableData.entries, function(itemData) {
       weight = getWeight(itemData, entryType);
       itemName = _.last(itemData);
       log(itemData);
-      FindOrMakeObjector.findOrMake({"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
+      FindOrMakeObjector.findOrMake("tableitem", {"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
     });
     
   };

@@ -28,7 +28,6 @@ const desiredMacros = [
 
 on("ready", function() {
   _.each(desiredMacros, function(dataObj) {
-    FindOrMakeObjector.setMode("macro");
-    FindOrMakeObjector.findOrMake(dataObj);
+    FindOrMakeObjector.findOrMake("macro", dataObj);
   });
 })
