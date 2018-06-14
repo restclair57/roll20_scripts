@@ -1,5 +1,5 @@
-const basicArmors = {
-  "name": "basicArmors",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.basicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -16,10 +16,10 @@ const basicArmors = {
     [60,60,"half plate"],
     [61,100,"full plate"],
   ]
-};
+});
 
-const basicShields = {
-  "name": "basicShields",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.basicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -30,13 +30,6 @@ const basicShields = {
     [31,95,"heavy steel shield"],
     [96,100,"tower shield"],
   ]
-};
-
-on("ready", function() {
-  var basicArmorsTables = [basicArmors, basicShields];
-  _.each(basicArmorsTables, function(tableData) {
-    RollableTableManager.findOrMake(tableData);
-  });
 });
 
 

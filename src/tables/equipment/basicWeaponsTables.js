@@ -1,5 +1,5 @@
-const commonMeleeWeaponsItems = {
-  "name": "commonMeleeWeaponsItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.commonMeleeWeaponsItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -20,10 +20,10 @@ const commonMeleeWeaponsItems = {
     [85,89,"short sword"],
     [90,100,"dwarven waraxe"]
   ]
-}
+});
 
-const uncommonWeaponsItems = {
-  "name": "uncommonWeaponsItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.uncommonWeaponsItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -66,10 +66,10 @@ const uncommonWeaponsItems = {
     [95,97,"warhammer"],
     [98,100,"whip"]
   ]
-};
+});
 
-const commonRangedWeaponsItems = {
-  "name": "commonRangedWeaponsItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.commonRangedWeaponsItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -91,10 +91,10 @@ const commonRangedWeaponsItems = {
     [91,95,"composite (+3 Str bonus) longbow"],
     [96,100,"composite (+4 Str bonus) longbow"]
   ]
-};
+});
 
-const commonAmmunitionItems = {
-  "name": "commonAmmunitionItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.commonAmmunitionItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -103,11 +103,11 @@ const commonAmmunitionItems = {
     [76,80,"50 repeating crossbow bolts"],
     [81,100,"50 sling bullets"]
   ]
-};
+});
 
 
-const randomWeaponsTable = {
-  "name": "randomWeaponsTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.randomWeaponsTable",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -115,13 +115,6 @@ const randomWeaponsTable = {
     [71,80,"[[1t[uncommonWeaponsItems]]]"],
     [81,100,"[[1t[commonRangedWeaponsItems]]]"]
   ]
-};
-
-on("ready", function() {
-  var basicWeaponsTables = [commonMeleeWeaponsItems, uncommonWeaponsItems, commonRangedWeaponsItems, commonAmmunitionItems, randomWeaponsTable];
-  _.each(basicWeaponsTables, function(tableData) {
-    RollableTableManager.findOrMake(tableData);
-  });
 });
 
 

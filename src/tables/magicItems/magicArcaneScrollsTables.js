@@ -1,5 +1,5 @@
-const arcaneZeroSpells = {
-  "name": "arcaneZeroSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneZeroSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -26,10 +26,10 @@ const arcaneZeroSpells = {
     [95,96,"summon instrument"],
     [97,100,"touch of fatigue"]
   ]
-};
+});
 
-const arcaneOneSpells = {
-  "name": "arcaneOneSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneOneSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -77,10 +77,10 @@ const arcaneOneSpells = {
     [97,98,"unseen servant"],
     [99,100,"ventriloquism"]
   ]
-};
+});
 
-const arcaneTwoSpells = {
-  "name": "arcaneTwoSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneTwoSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -143,10 +143,10 @@ const arcaneTwoSpells = {
     [98,99,"web"],
     [100,100,"whispering wind"]
   ]
-};
+});
 
-const arcaneThreeSpells = {
-  "name": "arcaneThreeSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneThreeSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -198,10 +198,10 @@ const arcaneThreeSpells = {
     [96,98,"water breathing"],
     [99,100,"wind wall"]
   ]
-};
+});
 
-const arcaneFourSpells = {
-  "name": "arcaneFourSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneFourSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -254,10 +254,10 @@ const arcaneFourSpells = {
     [97,99,"wall of ice"],
     [100,100,"zone of silence"]
   ]
-};
+});
 
-const arcaneFiveSpells = {
-  "name": "arcaneFiveSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneFiveSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -308,10 +308,10 @@ const arcaneFiveSpells = {
     [96,98,"wall of stone"],
     [99,100,"waves of fatigue"]
   ]
-};
+});
 
-const arcaneSixSpells = {
-  "name": "arcaneSixSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneSixSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -364,10 +364,10 @@ const arcaneSixSpells = {
     [96,97,"veil"],
     [98,100,"wall of iron"]
   ]
-};
+});
 
-const arcaneSevenSpells = {
-  "name": "arcaneSevenSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneSevenSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -407,10 +407,10 @@ const arcaneSevenSpells = {
     [96,97,"vision"],
     [98,100,"waves of exhaustion"]
   ]
-};
+});
 
-const arcaneEightSpells = {
-  "name": "arcaneEightSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneEightSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -450,10 +450,10 @@ const arcaneEightSpells = {
     [95,98,"temporal stasis"],
     [99,100,"trap the soul"]
   ]
-};
+});
 
-const arcaneNineSpells = {
-  "name": "arcaneNineSpells",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.arcaneNineSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -482,59 +482,44 @@ const arcaneNineSpells = {
     [96,99,"weird"],
     [100,100,"wish"]
   ]
-};
+});
 
-const minorMagicArcaneScrolls = {
-  "name": "minorMagicArcaneScrolls",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.minorMagicArcaneScrolls",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
-    [1,5 ,  "[[ [[1d3]]t[arcaneZeroSpells] ]]"],
-    [6,50,  "[[ [[1d3]]t[arcaneOneSpells] ]]"],
-    [51,95, "[[ [[1d3]]t[arcaneTwoSpells] ]]"],
-    [96,100,"[[ [[1d3]]t[arcaneThreeSpells] ]]"]
+    [1,5 ,  "[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneZeroSpells] ]]"],
+    [6,50,  "[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneOneSpells] ]]"],
+    [51,95, "[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneTwoSpells] ]]"],
+    [96,100,"[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneThreeSpells] ]]"]
   ]
-};
+});
 
-const mediumMagicArcaneScrolls = {
-  "name": "mediumMagicArcaneScrolls",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.mediumMagicArcaneScrolls",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
-    [1,5,   "[[ [[1d4]]t[arcaneTwoSpells] ]]"],
-    [6,65,  "[[ [[1d4]]t[arcaneThreeSpells] ]]"],
-    [66,95, "[[ [[1d4]]t[arcaneFourSpells] ]]"],
-    [96,100,"[[ [[1d4]]t[arcaneFiveSpells] ]]"]
+    [1,5,   "[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneTwoSpells] ]]"],
+    [6,65,  "[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneThreeSpells] ]]"],
+    [66,95, "[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneFourSpells] ]]"],
+    [96,100,"[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneFiveSpells] ]]"]
   ]
-};
+});
 
-const majorMagicArcaneScrolls = {
-  "name": "majorMagicArcaneScrolls",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.majorMagicArcaneScrolls",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
-    [1,5,   "[[ [[1d6]]t[arcaneFourSpells] ]]"],
-    [6,50,  "[[ [[1d6]]t[arcaneFiveSpells] ]]"],
-    [51,70, "[[ [[1d6]]t[arcaneSixSpells] ]]"],
-    [71,85, "[[ [[1d6]]t[arcaneSevenSpells] ]]"],
-    [86,95, "[[ [[1d6]]t[arcaneEightSpells] ]]"],
-    [96,100,"[[ [[1d6]]t[arcaneNineSpells] ]]"]
+    [1,5,   "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneFourSpells] ]]"],
+    [6,50,  "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneFiveSpells] ]]"],
+    [51,70, "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneSixSpells] ]]"],
+    [71,85, "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneSevenSpells] ]]"],
+    [86,95, "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneEightSpells] ]]"],
+    [96,100,"[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneNineSpells] ]]"]
   ]
-};
-
-on("ready", function() {
-  var arcaneSpellSets = [
-    arcaneZeroSpells,
-    arcaneOneSpells,
-    arcaneTwoSpells,
-    arcaneThreeSpells,
-    arcaneFourSpells,
-    arcaneFiveSpells,
-    arcaneSixSpells,
-    arcaneSevenSpells,
-    arcaneEightSpells,
-    arcaneNineSpells
-  ];
-  _.each(arcaneSpellSets, function(tableData) {
-    RollableTableManager.findOrMake(tableData);
-  });
 });
 
 

@@ -1,6 +1,7 @@
-const mediumMagicStaffs = {
-  "name": "mediumMagicStaffs",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.mediumMagicStaffs",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,15,"Charming ([[d50]] charges)"],
     [16,30,"Fire ([[d50]] charges)"],
@@ -11,11 +12,12 @@ const mediumMagicStaffs = {
     [91,95,"Frost ([[d50]] charges)"],
     [96,100,"Defense ([[d50]] charges)"]
   ]
-};
+});
 
-const majorMagicStaffs = {
-  "name": "majorMagicStaffs",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.majorMagicStaffs",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"Charming ([[d50]] charges)"],
     [4,9,"Fire ([[d50]] charges)"],
@@ -39,6 +41,6 @@ const majorMagicStaffs = {
     [93,97,"Passage ([[d50]] charges)"],
     [98,100,"Power ([[d50]] charges)"]
   ]
-};
+});
 
 

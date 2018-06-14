@@ -1,6 +1,7 @@
-const minorMagicWands = {
-  "name": "minorMagicWands",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.minorMagicWands",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"Detect magic ([[d50]] charges)"],
     [3,4,"Light ([[d50]] charges)"],
@@ -39,11 +40,12 @@ const minorMagicWands = {
     [95,97,"Summon monster II ([[d50]] charges)"],
     [98,100,"Web ([[d50]] charges)"]
   ]
-};
+});
 
-const mediumMagicWands = {
-  "name": "mediumMagicWands",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.mediumMagicWands",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,3,"Magic missile (5th) ([[d50]] charges)"],
     [4,7,"Bear’s endurance ([[d50]] charges)"],
@@ -86,11 +88,12 @@ const mediumMagicWands = {
     [99,99,"Lightning bolt (6th) ([[d50]] charges)"],
     [100,100,"Searing light (6th) ([[d50]] charges)"]
   ]
-};
+});
 
-const majorMagicWands = {
-  "name": "majorMagicWands",
+Rob20.registerTable({
+  "name": "Rob20.Tables.MagicItems.majorMagicWands",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"Magic missile (7th) ([[d50]] charges)"],
     [3,5,"Magic missile (9th) ([[d50]] charges)"],
@@ -138,6 +141,6 @@ const majorMagicWands = {
     [98,99,"Restoration ([[d50]] charges)"],
     [100,100,"Stoneskin ([[d50]] charges)"]
   ]
-};
+});
 
 

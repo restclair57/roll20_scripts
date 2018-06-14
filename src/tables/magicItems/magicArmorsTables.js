@@ -1,5 +1,5 @@
 const minorMagicArmorAndShields = {
-  "name": "minorMagicArmorAndShields",
+  "name": "Rob20.Tables.MagicItems.minorMagicArmorAndShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -13,7 +13,7 @@ const minorMagicArmorAndShields = {
 };
 
 const minorMagicArmors = {
-  "name": "minorMagicArmors",
+  "name": "Rob20.Tables.MagicItems.minorMagicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -24,7 +24,7 @@ const minorMagicArmors = {
 };
 
 const minorMagicShields = {
-  "name": "minorMagicShields",
+  "name": "Rob20.Tables.MagicItems.minorMagicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -36,7 +36,7 @@ const minorMagicShields = {
 };
 
 const minorMagicArmorAbilitiesGateway = {
-  "name": "minorMagicArmorAbilitiesGateway",
+  "name": "Rob20.Tables.MagicItems.minorMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -46,7 +46,7 @@ const minorMagicArmorAbilitiesGateway = {
 };
 
 const minorMagicArmorAbilities = {
-  "name": "minorMagicArmorAbilities",
+  "name": "Rob20.Tables.MagicItems.minorMagicArmorAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -64,7 +64,7 @@ const minorMagicArmorAbilities = {
 };
 
 const minorMagicShieldAbilitiesGateway = {
-  "name": "minorMagicShieldAbilitiesGateway",
+  "name": "Rob20.Tables.MagicItems.minorMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -74,7 +74,7 @@ const minorMagicShieldAbilitiesGateway = {
 };
 
 const minorMagicShieldAbilities = {
-  "name": "minorMagicShieldAbilities",
+  "name": "Rob20.Tables.MagicItems.minorMagicShieldAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -92,7 +92,7 @@ const minorMagicShieldAbilities = {
 
 
 const mediumMagicArmorAndShields = {
-  "name": "mediumMagicArmorAndShields",
+  "name": "Rob20.Tables.MagicItems.mediumMagicArmorAndShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -110,7 +110,7 @@ const mediumMagicArmorAndShields = {
 };
 
 const mediumMagicArmors = {
-  "name": "mediumMagicArmors",
+  "name": "Rob20.Tables.MagicItems.mediumMagicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -125,7 +125,7 @@ const mediumMagicArmors = {
 };
 
 const mediumMagicShields = {
-  "name": "mediumMagicShields",
+  "name": "Rob20.Tables.MagicItems.mediumMagicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -140,7 +140,7 @@ const mediumMagicShields = {
 };
 
 const mediumMagicArmorAbilitiesGateway = {
-  "name": "mediumMagicArmorAbilitiesGateway",
+  "name": "Rob20.Tables.MagicItems.mediumMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -150,7 +150,7 @@ const mediumMagicArmorAbilitiesGateway = {
 };
 
 const mediumMagicArmorAbilities = {
-  "name": "mediumMagicArmorAbilities",
+  "name": "Rob20.Tables.MagicItems.mediumMagicArmorAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -178,7 +178,7 @@ const mediumMagicArmorAbilities = {
 };
 
 const mediumMagicShieldAbilitiesGateway = {
-  "name": "mediumMagicShieldAbilitiesGateway",
+  "name": "Rob20.Tables.MagicItems.mediumMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -188,7 +188,7 @@ const mediumMagicShieldAbilitiesGateway = {
 };
 
 const mediumMagicShieldAbilities = {
-  "name": "mediumMagicShieldAbilities",
+  "name": "Rob20.Tables.MagicItems.mediumMagicShieldAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -215,7 +215,7 @@ const mediumMagicShieldAbilities = {
 
 
 const majorMagicArmorAndShields = {
-  "name": "majorMagicArmorAndShields",
+  "name": "Rob20.Tables.MagicItems.majorMagicArmorAndShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -231,7 +231,7 @@ const majorMagicArmorAndShields = {
 };
 
 const majorMagicArmors = {
-  "name": "majorMagicArmors",
+  "name": "Rob20.Tables.MagicItems.majorMagicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -247,7 +247,7 @@ const majorMagicArmors = {
 };
 
 const majorMagicShields = {
-  "name": "majorMagicShields",
+  "name": "Rob20.Tables.MagicItems.majorMagicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -261,7 +261,7 @@ const majorMagicShields = {
 
 
 const majorMagicArmorAbilitiesGateway = {
-  "name": "majorMagicArmorAbilitiesGateway",
+  "name": "Rob20.Tables.MagicItems.majorMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -271,7 +271,7 @@ const majorMagicArmorAbilitiesGateway = {
 };
 
 const majorMagicArmorAbilities = {
-  "name": "majorMagicArmorAbilities",
+  "name": "Rob20.Tables.MagicItems.majorMagicArmorAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -313,7 +313,7 @@ const majorMagicArmorAbilities = {
 };
 
 const majorMagicShieldAbilitiesGateway = {
-  "name": "majorMagicShieldAbilitiesGateway",
+  "name": "Rob20.Tables.MagicItems.majorMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -323,7 +323,7 @@ const majorMagicShieldAbilitiesGateway = {
 };
 
 const majorMagicShieldAbilities = {
-  "name": "majorMagicShieldAbilities",
+  "name": "Rob20.Tables.MagicItems.majorMagicShieldAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [

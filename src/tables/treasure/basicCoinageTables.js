@@ -1,5 +1,5 @@
-const coinageOneTable = {
-  "name": "coinageOneTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageOne",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -9,10 +9,10 @@ const coinageOneTable = {
     [53,95,"[[2d8*10]] gp"],
     [96,100,"[[1d4*10]] pp"]
   ]
-};
+});
 
-const coinageTwoTable = {
-  "name": "coinageTwoTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageTwo",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -22,10 +22,10 @@ const coinageTwoTable = {
     [44,95,"[[4d10*10]] gp"],
     [96,100,"[[2d8*10]] pp"]
   ]
-};
+});
 
-const coinageThreeTable = {
-  "name": "coinageThreeTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageThree",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -35,10 +35,10 @@ const coinageThreeTable = {
     [42,95,"[[1d4*100]] gp"],
     [96,100,"[[1d10*10]] pp"]
   ]
-};
+});
 
-const coinageFourTable = {
-  "name": "coinageFourTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageFour",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -48,10 +48,10 @@ const coinageFourTable = {
     [42,95,"[[1d6*100]] gp"],
     [96,100,"[[1d8*10]] pp"]
   ]
-};
+});
 
-const coinageFiveTable = {
-  "name": "coinageFiveTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageFive",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -61,10 +61,10 @@ const coinageFiveTable = {
     [39,95,"[[1d8*100]] gp"],
     [96,100,"[[1d10*10]] pp"]
   ]
-};
+});
 
-const coinageSixTable = {
-  "name": "coinageSixTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageSix",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -74,10 +74,10 @@ const coinageSixTable = {
     [38,95,"[[1d10*100]] gp"],
     [96,100,"[[1d12*10]] pp"]
   ]
-};
+});
 
-const coinageSevenTable = {
-  "name": "coinageSevenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageSeven",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -87,10 +87,10 @@ const coinageSevenTable = {
     [36,93,"[[2d6*100]] gp"],
     [94,100,"[[3d4*10]] pp"]
   ]
-};
+});
 
-const coinageEightTable = {
-  "name": "coinageEightTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageEight",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -100,10 +100,10 @@ const coinageEightTable = {
     [30,87,"[[2d8*100]] gp"],
     [88,100,"[[3d6*10]] pp"]
   ]
-};
+});
 
-const coinageNineTable = {
-  "name": "coinageNineTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageNine",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -113,10 +113,10 @@ const coinageNineTable = {
     [30,85,"[[5d4*100]] gp"],
     [86,100,"[[2d12*10]] pp"]
   ]
-};
+});
 
-const coinageTenTable = {
-  "name": "coinageTenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageTen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -125,10 +125,10 @@ const coinageTenTable = {
     [25,79,"[[6d4*100]] gp"],
     [80,100,"[[5d6*10]] pp"]
   ]
-};
+});
 
-const coinageElevenTable = {
-  "name": "coinageElevenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageEleven",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -137,10 +137,10 @@ const coinageElevenTable = {
     [15,75,"[[4d8*100]] gp"],
     [76,100,"[[4d10*10]] pp"]
   ]
-};
+});
 
-const coinageTwelveTable = {
-  "name": "coinageTwelveTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageTwelve",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -149,10 +149,10 @@ const coinageTwelveTable = {
     [15,75,"[[1d4*1000]] gp"],
     [76,100,"[[1d4*100]] pp"]
   ]
-};
+});
 
-const coinageThirteenTable = {
-  "name": "coinageThirteenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageThirteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -160,10 +160,10 @@ const coinageThirteenTable = {
     [9,75,"[[1d4*1000]] gp"],
     [76,100,"[[1d10*100]] pp"]
   ]
-};
+});
 
-const coinageFourteenTable = {
-  "name": "coinageFourteenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageFourteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -171,10 +171,10 @@ const coinageFourteenTable = {
     [9,75,"[[1d6*1000]] gp"],
     [76,100,"[[1d12*100]] pp"]
   ]
-};
+});
 
-const coinageFifteenTable = {
-  "name": "coinageFifteenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageFifteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -182,10 +182,10 @@ const coinageFifteenTable = {
     [4,74,"[[1d8*1000]] gp"],
     [75,100,"[[3d4*100]] pp"]
   ]
-};
+});
 
-const coinageSixteenTable = {
-  "name": "coinageSixteenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageSixteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -193,10 +193,10 @@ const coinageSixteenTable = {
     [4,74,"[[1d12*1000]] gp"],
     [75,100,"[[3d4*100]] pp"]
   ]
-};
+});
 
-const coinageSeventeenTable = {
-  "name": "coinageSeventeenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageSeventeen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -204,10 +204,10 @@ const coinageSeventeenTable = {
     [4,68,"[[3d4*1000]] gp"],
     [69,100,"[[2d10*100]] pp"]
   ]
-};
+});
 
-const coinageEighteenTable = {
-  "name": "coinageEighteenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageEighteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -215,10 +215,10 @@ const coinageEighteenTable = {
     [3,65,"[[3d6*1000]] gp"],
     [66,100,"[[5d4*100]] pp"]
   ]
-};
+});
 
-const coinageNineteenTable = {
-  "name": "coinageNineteenTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageNineteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -226,10 +226,10 @@ const coinageNineteenTable = {
     [3,65,"[[3d8*1000]] gp"],
     [66,100,"[[3d10*100]] pp"]
   ]
-};
+});
 
-const coinageTwentyTable = {
-  "name": "coinageTwentyTable",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Treasure.coinageTwenty",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -237,35 +237,6 @@ const coinageTwentyTable = {
     [3,65,"[[4d8*1000]] gp"],
     [66,100,"[[4d10*100]] pp"]
   ]
-};
-
-
-on("ready", function() {
-  var coinageTables = [
-    coinageOneTable,
-    coinageTwoTable,
-    coinageThreeTable,
-    coinageFourTable,
-    coinageFiveTable,
-    coinageSixTable,
-    coinageSevenTable,
-    coinageEightTable,
-    coinageNineTable,
-    coinageTenTable,
-    coinageElevenTable,
-    coinageTwelveTable,
-    coinageThirteenTable,
-    coinageFourteenTable,
-    coinageFifteenTable,
-    coinageSixteenTable,
-    coinageSeventeenTable,
-    coinageEighteenTable,
-    coinageNineteenTable,
-    coinageTwentyTable
-  ];
-  _.each(coinageTables, function(tableData) {
-    RollableTableManager.findOrMake(tableData);
-  });
 });
 
 

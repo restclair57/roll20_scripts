@@ -1,5 +1,5 @@
-const alchemicalItemsData = {
-  "name": "alchemicalItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.alchemicalItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -12,10 +12,10 @@ const alchemicalItemsData = {
     [75,88,"[[1d4 tanglefoot bags]]"],
     [89,100,"[[1d4 thunderstones]]"]
   ]
-};
+});
 
-const armorItemsData = {
-  "name": "armorItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.armorItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -28,20 +28,20 @@ const armorItemsData = {
     [81,90,"[[1d[darkwoodShieldsItems]]]"],
     [91,100,"masterwork [[1d[masterworkShieldsItems]]]"]
   ]
-};
+});
 
-const darkwoodShieldsItemsData = {
-  "name": "darkwoodShieldsItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.darkwoodShieldsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,50,"buckler"],
     [51,100,"shield"]
   ]
-};
+});
 
-const masterworkShieldsItemsData = {
-  "name": "masterworkShieldsItems",
+Rob20.registerTable({
+  "name": "Rob20.Tables.Equipment.masterworkShieldsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -51,9 +51,9 @@ const masterworkShieldsItemsData = {
     [61,83,"heavy wooden shield"],
     [84,100,"heavy steel shield"]
   ]
-};
+});
 
-const weaponsItemsData = {
+Rob20.registerTable({
   "name": "weaponsItems",
   "showplayers": false,
   "entryType": "rollWeights",
@@ -62,9 +62,9 @@ const weaponsItemsData = {
     [51,70,"masterwork [[1t[uncommonMeleeWeaponsItems]]]"],
     [71,100,"masterwork [[1t[commonRangedWeaponsItems]]]"]
   ]
-};
+});
 
-const toolsAndGearItemsData = {
+Rob20.registerTable({
   "name": "toolsAndGearItems",
   "showplayers": false,
   "entryType": "rollWeights",
@@ -90,9 +90,9 @@ const toolsAndGearItemsData = {
     [89,95,"masterwork musical instrument"],
     [96,100,"masterwork thieves’ tools"]
   ]
-};
+});
 
-const mundaneItemsData = {
+Rob20.registerTable({
   "name": "mundaneItems",
   "showplayers": false,
   "entryType": "rollWeights",
@@ -103,21 +103,6 @@ const mundaneItemsData = {
     [51,83,"[[1t[weaponsItems]]]"],
     [84,100,"[[1t[toolsAndGearItems]]]"]
   ]
-};
-
-on("ready", function() {
-  var basicMundaneItemsTables = [
-    alchemicalItemsData,
-    armorItemsData,
-    darkwoodShieldsItemsData,
-    masterworkShieldsItemsData,
-    weaponsItemsData,
-    toolsAndGearItemsData,
-    mundaneItemsData
-  ];
-  _.each(basicMundaneItemsTables, function(tableData) {
-    RollableTableManager.findOrMake(tableData);
-  });
 });
 
 
