@@ -10,7 +10,7 @@ Rob20.FindOrMakeObjector = Rob20.FindOrMakeObjector || (function () {
   }
   
   function make(objectType, objectData) {
-    var toCreate = Object.assign({"playerid": RobsPlayerId.get()}, objectData);
+    var toCreate = Object.assign({"playerid": Rob20.RobsPlayerId.get()}, objectData);
     return createObj(objectType, toCreate);
   }
   

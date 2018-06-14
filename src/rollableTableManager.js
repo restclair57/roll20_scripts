@@ -11,15 +11,15 @@ Rob20.RollableTableManager = Rob20.RollableTableManager || (function () {
     fomObject = _.clone(tableData);
     delete fomObject.entries;
     delete fomObject.entryType;
-    tableObject = FindOrMakeObjector.findOrMake("rollabletable", fomObject);
+    tableObject = Rob20.FindOrMakeObjector.findOrMake("rollabletable", fomObject);
     
     var minRoll, maxRoll, itemName, weight, entryType;
     entryType = tableData.entryType;
     _.each(tableData.entries, function(itemData) {
       weight = getWeight(itemData, entryType);
-      itemName = _.last(itemData);
+      itemName = _.isString(itemData) ? itemData : _.last(itemData);
       log(itemData);
-      FindOrMakeObjector.findOrMake("tableitem", {"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
+      Rob20.FindOrMakeObjector.findOrMake("tableitem", {"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
     });
     
   };

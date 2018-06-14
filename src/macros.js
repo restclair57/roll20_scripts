@@ -1,4 +1,4 @@
-Rob20.Macros =  Rob20.Macros || {
+Rob20.Macros =  Rob20.Macros || (function() {
   const desiredMacros = [
     {
       "name": "arcanecast",
@@ -27,6 +27,7 @@ Rob20.Macros =  Rob20.Macros || {
   
   ];
 
+  return {desiredMacros: desiredMacros};
 
-};
+}());
 
