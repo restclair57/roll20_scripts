@@ -21,11 +21,19 @@ var Rob20 = Rob20 || (function() {
     _.each(registeredEventHandlers, function(eHandler) {
       eHandler.call();
     });
+    return null;
   };
   
   function _registerTables() {
     _.each(_.keys(registeredTables), function(tableName) {
       Rob20.RollableTableManager.findOrMake(registeredTables[tableName]);
+    });
+    return null;
+  };
+  
+  function _registerMacros() {
+    _.each(Rob20.Macros.desiredMacros, function(macroData) {
+      Rob20.FindOrMakeObjector.findOrMake("macro", macroData);
     });
   };
   
@@ -33,6 +41,7 @@ var Rob20 = Rob20 || (function() {
   function onReady() {
     _registerKnownEventHandlers();
     _registerTables();
+    _registerMacros();
   };
   
   var objectRefs = {
