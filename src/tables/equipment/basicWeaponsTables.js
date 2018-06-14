@@ -73,7 +73,7 @@ Rob20.registerTable({
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
-    [1,10,"[[1t[commonAmmunitionItems]]]"],
+    [1,10,"[[1t[Rob20.Tables.Equipment.commonAmmunitionItems]]]"],
     [11,15,"throwing axe"],
     [16,25,"heavy crossbow"],
     [26,35,"light crossbow"],
@@ -111,9 +111,9 @@ Rob20.registerTable({
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,70,"[[1t[commonMeleeWeaponsItems]]]"],
-    [71,80,"[[1t[uncommonWeaponsItems]]]"],
-    [81,100,"[[1t[commonRangedWeaponsItems]]]"]
+    [1,70,"[[1t[Rob20.Tables.Equipment.commonMeleeWeaponsItems]]]"],
+    [71,80,"[[1t[Rob20.Tables.Equipment.uncommonWeaponsItems]]]"],
+    [81,100,"[[1t[Rob20.Tables.Equipment.commonRangedWeaponsItems]]]"]
   ]
 });
 

@@ -14,7 +14,7 @@ Rob20.registerTable({
     [58,58,"splint mail"],
     [59,59,"banded mail"],
     [60,60,"half plate"],
-    [61,100,"full plate"],
+    [61,100,"full plate"]
   ]
 });
 
@@ -28,7 +28,7 @@ Rob20.registerTable({
     [16,20,"light steel shield"],
     [21,30,"heavy wooden shield"],
     [31,95,"heavy steel shield"],
-    [96,100,"tower shield"],
+    [96,100,"tower shield"]
   ]
 });
 
