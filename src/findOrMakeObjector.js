@@ -17,10 +17,10 @@ Rob20.FindOrMakeObjector = Rob20.FindOrMakeObjector || (function () {
   function findOrMake(objectType, objectData) {
     var foundObjects = find(objectType, objectData);
     if(_.isEmpty(foundObjects)) {
-      log("creating " + objectType + " object with name " + objectData.name);
+      // log("creating " + objectType + " object with name " + objectData.name);
       return make(objectType, objectData);
     } else {
-      log("found " + objectType + " object with name " + objectData.name);
+      // log("found " + objectType + " object with name " + objectData.name);
       return _.first(foundObjects);
     };
   };

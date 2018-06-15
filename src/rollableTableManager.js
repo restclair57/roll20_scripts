@@ -18,14 +18,13 @@ Rob20.RollableTableManager = Rob20.RollableTableManager || (function () {
     _.each(tableData.entries, function(itemData) {
       weight = getWeight(itemData, entryType);
       itemName = _.isString(itemData) ? itemData : _.last(itemData);
-      log(itemData);
+      // log(itemData);
       Rob20.FindOrMakeObjector.findOrMake("tableitem", {"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
     });
     
   };
   
   function getWeight(iData, eType) {
-    log(eType);
     switch(eType) {
       case 'simple': return 1;
       case 'rollWeights': return ((iData[1] - iData[0])+1);
