@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.mediumMagicStaffs",
+  "name": "Rob20-Tables-MagicItems-mediumMagicStaffs",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -15,7 +15,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.majorMagicStaffs",
+  "name": "Rob20-Tables-MagicItems-majorMagicStaffs",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [

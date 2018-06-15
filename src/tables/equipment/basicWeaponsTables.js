@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.commonMeleeWeaponsItems",
+  "name": "Rob20-Tables-Equipment-commonMeleeWeaponsItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -23,7 +23,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.uncommonWeaponsItems",
+  "name": "Rob20-Tables-Equipment-uncommonWeaponsItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -69,11 +69,11 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.commonRangedWeaponsItems",
+  "name": "Rob20-Tables-Equipment-commonRangedWeaponsItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
-    [1,10,"[[1t[Rob20.Tables.Equipment.commonAmmunitionItems]]]"],
+    [1,10,"[[1t[Rob20-Tables-Equipment-commonAmmunitionItems]]]"],
     [11,15,"throwing axe"],
     [16,25,"heavy crossbow"],
     [26,35,"light crossbow"],
@@ -94,7 +94,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.commonAmmunitionItems",
+  "name": "Rob20-Tables-Equipment-commonAmmunitionItems",
   "showplayers": true,
   "entryType": "rollWeights",
   "entries": [
@@ -107,13 +107,13 @@ Rob20.registerTable({
 
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.randomWeaponsTable",
+  "name": "Rob20-Tables-Equipment-randomWeaponsTable",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,70,"[[1t[Rob20.Tables.Equipment.commonMeleeWeaponsItems]]]"],
-    [71,80,"[[1t[Rob20.Tables.Equipment.uncommonWeaponsItems]]]"],
-    [81,100,"[[1t[Rob20.Tables.Equipment.commonRangedWeaponsItems]]]"]
+    [1,70,"[[1t[Rob20-Tables-Equipment-commonMeleeWeaponsItems]]]"],
+    [71,80,"[[1t[Rob20-Tables-Equipment-uncommonWeaponsItems]]]"],
+    [81,100,"[[1t[Rob20-Tables-Equipment-commonRangedWeaponsItems]]]"]
   ]
 });
 

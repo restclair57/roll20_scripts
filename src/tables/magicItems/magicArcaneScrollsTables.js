@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneZeroSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneZeroSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -29,7 +29,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneOneSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneOneSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -80,7 +80,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneTwoSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneTwoSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -146,7 +146,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneThreeSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneThreeSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -201,7 +201,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneFourSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneFourSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -257,7 +257,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneFiveSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneFiveSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -311,7 +311,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneSixSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneSixSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -367,7 +367,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneSevenSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneSevenSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -410,7 +410,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneEightSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneEightSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -453,7 +453,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.arcaneNineSpells",
+  "name": "Rob20-Tables-MagicItems-arcaneNineSpells",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -485,40 +485,40 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.minorMagicArcaneScrolls",
+  "name": "Rob20-Tables-MagicItems-minorMagicArcaneScrolls",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,5 ,  "[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneZeroSpells] ]]"],
-    [6,50,  "[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneOneSpells] ]]"],
-    [51,95, "[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneTwoSpells] ]]"],
-    [96,100,"[[ [[1d3]]t[Rob20.Tables.MagicItems.arcaneThreeSpells] ]]"]
+    [1,5 ,  "[[ [[1d3]]t[Rob20-Tables-MagicItems-arcaneZeroSpells]]]"],
+    [6,50,  "[[ [[1d3]]t[Rob20-Tables-MagicItems-arcaneOneSpells]]]"],
+    [51,95, "[[ [[1d3]]t[Rob20-Tables-MagicItems-arcaneTwoSpells]]]"],
+    [96,100,"[[ [[1d3]]t[Rob20-Tables-MagicItems-arcaneThreeSpells]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.mediumMagicArcaneScrolls",
+  "name": "Rob20-Tables-MagicItems-mediumMagicArcaneScrolls",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,5,   "[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneTwoSpells] ]]"],
-    [6,65,  "[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneThreeSpells] ]]"],
-    [66,95, "[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneFourSpells] ]]"],
-    [96,100,"[[ [[1d4]]t[Rob20.Tables.MagicItems.arcaneFiveSpells] ]]"]
+    [1,5,   "[[ [[1d4]]t[Rob20-Tables-MagicItems-arcaneTwoSpells]]]"],
+    [6,65,  "[[ [[1d4]]t[Rob20-Tables-MagicItems-arcaneThreeSpells]]]"],
+    [66,95, "[[ [[1d4]]t[Rob20-Tables-MagicItems-arcaneFourSpells]]]"],
+    [96,100,"[[ [[1d4]]t[Rob20-Tables-MagicItems-arcaneFiveSpells]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.majorMagicArcaneScrolls",
+  "name": "Rob20-Tables-MagicItems-majorMagicArcaneScrolls",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,5,   "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneFourSpells] ]]"],
-    [6,50,  "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneFiveSpells] ]]"],
-    [51,70, "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneSixSpells] ]]"],
-    [71,85, "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneSevenSpells] ]]"],
-    [86,95, "[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneEightSpells] ]]"],
-    [96,100,"[[ [[1d6]]t[Rob20.Tables.MagicItems.arcaneNineSpells] ]]"]
+    [1,5,   "[[ [[1d6]]t[Rob20-Tables-MagicItems-arcaneFourSpells]]]"],
+    [6,50,  "[[ [[1d6]]t[Rob20-Tables-MagicItems-arcaneFiveSpells]]]"],
+    [51,70, "[[ [[1d6]]t[Rob20-Tables-MagicItems-arcaneSixSpells]]]"],
+    [71,85, "[[ [[1d6]]t[Rob20-Tables-MagicItems-arcaneSevenSpells]]]"],
+    [86,95, "[[ [[1d6]]t[Rob20-Tables-MagicItems-arcaneEightSpells]]]"],
+    [96,100,"[[ [[1d6]]t[Rob20-Tables-MagicItems-arcaneNineSpells]]]"]
   ]
 });
 

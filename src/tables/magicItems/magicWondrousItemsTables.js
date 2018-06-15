@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.minorWondrousItems",
+  "name": "Rob20-Tables-MagicItems-minorWondrousItems",
   "showplayers": false,
   "entryType": "simple",
   "entries": [
@@ -107,7 +107,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.mediumWondrousItems",
+  "name": "Rob20-Tables-MagicItems-mediumWondrousItems",
   "showplayers": false,
   "entryType": "simple",
   "entries": [
@@ -215,7 +215,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.majorWondrousItems",
+  "name": "Rob20-Tables-MagicItems-majorWondrousItems",
   "showplayers": false,
   "entryType": "simple",
   "entries": [

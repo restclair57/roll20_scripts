@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageOne",
+  "name": "Rob20-Tables-Treasure-coinageOne",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -12,7 +12,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageTwo",
+  "name": "Rob20-Tables-Treasure-coinageTwo",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -25,7 +25,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageThree",
+  "name": "Rob20-Tables-Treasure-coinageThree",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -38,7 +38,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageFour",
+  "name": "Rob20-Tables-Treasure-coinageFour",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -51,7 +51,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageFive",
+  "name": "Rob20-Tables-Treasure-coinageFive",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -64,7 +64,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageSix",
+  "name": "Rob20-Tables-Treasure-coinageSix",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -77,7 +77,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageSeven",
+  "name": "Rob20-Tables-Treasure-coinageSeven",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -90,7 +90,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageEight",
+  "name": "Rob20-Tables-Treasure-coinageEight",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -103,7 +103,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageNine",
+  "name": "Rob20-Tables-Treasure-coinageNine",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -116,7 +116,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageTen",
+  "name": "Rob20-Tables-Treasure-coinageTen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -128,7 +128,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageEleven",
+  "name": "Rob20-Tables-Treasure-coinageEleven",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -140,7 +140,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageTwelve",
+  "name": "Rob20-Tables-Treasure-coinageTwelve",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -152,7 +152,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageThirteen",
+  "name": "Rob20-Tables-Treasure-coinageThirteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -163,7 +163,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageFourteen",
+  "name": "Rob20-Tables-Treasure-coinageFourteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -174,7 +174,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageFifteen",
+  "name": "Rob20-Tables-Treasure-coinageFifteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -185,7 +185,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageSixteen",
+  "name": "Rob20-Tables-Treasure-coinageSixteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -196,7 +196,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageSeventeen",
+  "name": "Rob20-Tables-Treasure-coinageSeventeen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -207,7 +207,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageEighteen",
+  "name": "Rob20-Tables-Treasure-coinageEighteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -218,7 +218,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageNineteen",
+  "name": "Rob20-Tables-Treasure-coinageNineteen",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -229,7 +229,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Treasure.coinageTwenty",
+  "name": "Rob20-Tables-Treasure-coinageTwenty",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [

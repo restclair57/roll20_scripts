@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.basicArmors",
+  "name": "Rob20-Tables-Equipment-basicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -19,7 +19,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.basicShields",
+  "name": "Rob20-Tables-Equipment-basicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [

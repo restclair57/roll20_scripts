@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.alchemicalItems",
+  "name": "Rob20-Tables-Equipment-alchemicalItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -15,7 +15,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.armorItems",
+  "name": "Rob20-Tables-Equipment-armorItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -25,13 +25,13 @@ Rob20.registerTable({
     [27,34,"banded mail"],
     [35,54,"half plate"],
     [55,80,"full plate"],
-    [81,90,"[[1t[Rob20.Tables.Equipment.darkwoodShieldsItems]]]"],
-    [91,100,"masterwork [[1t[Rob20.Tables.Equipment.masterworkShieldsItems]]]"]
+    [81,90,"[[1t[Rob20-Tables-Equipment-darkwoodShieldsItems]]]"],
+    [91,100,"masterwork [[1t[Rob20-Tables-Equipment-masterworkShieldsItems]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.darkwoodShieldsItems",
+  "name": "Rob20-Tables-Equipment-darkwoodShieldsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -41,7 +41,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.masterworkShieldsItems",
+  "name": "Rob20-Tables-Equipment-masterworkShieldsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -54,18 +54,18 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.weaponsItems",
+  "name": "Rob20-Tables-Equipment-weaponsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,50,"masterwork [[1t[Rob20.Tables.Equipment.commonMeleeWeaponsItems]]]"],
-    [51,70,"masterwork [[1t[Rob20.Tables.Equipment.uncommonMeleeWeaponsItems]]]"],
-    [71,100,"masterwork [[1t[Rob20.Tables.Equipment.commonRangedWeaponsItems]]]"]
+    [1,50,"masterwork [[1t[Rob20-Tables-Equipment-commonMeleeWeaponsItems]]]"],
+    [51,70,"masterwork [[1t[Rob20-Tables-Equipment-uncommonMeleeWeaponsItems]]]"],
+    [71,100,"masterwork [[1t[Rob20-Tables-Equipment-commonRangedWeaponsItems]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.toolsAndGearItems",
+  "name": "Rob20-Tables-Equipment-toolsAndGearItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -93,15 +93,15 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.Equipment.mundaneItems",
+  "name": "Rob20-Tables-Equipment-mundaneItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,17,"[[1t[Rob20.Tables.Equipment.alchemicalItems]]]"],
-    [18,21,"small [[1t[Rob20.Tables.Equipment.armorItems]]]"],
-    [22,50,"medium [[1t[Rob20.Tables.Equipment.armorItems]]]"],
-    [51,83,"[[1t[Rob20.Tables.Equipment.weaponsItems]]]"],
-    [84,100,"[[1t[Rob20.Tables.Equipment.toolsAndGearItems]]]"]
+    [1,17,"[[1t[Rob20-Tables-Equipment-alchemicalItems]]]"],
+    [18,21,"small [[1t[Rob20-Tables-Equipment-armorItems]]]"],
+    [22,50,"medium [[1t[Rob20-Tables-Equipment-armorItems]]]"],
+    [51,83,"[[1t[Rob20-Tables-Equipment-weaponsItems]]]"],
+    [84,100,"[[1t[Rob20-Tables-Equipment-toolsAndGearItems]]]"]
   ]
 });
 

@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.mediumMagicRods",
+  "name": "Rob20-Tables-MagicItems-mediumMagicRods",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -24,7 +24,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20.Tables.MagicItems.majorMagicRods",
+  "name": "Rob20-Tables-MagicItems-majorMagicRods",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
