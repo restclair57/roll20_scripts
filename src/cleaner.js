@@ -1,4 +1,4 @@
-var Cleaner = Cleaner || (function() {
+Rob20.Cleaner = Rob20.Cleaner || (function() {
   
   const regex = {
       cleanerCmd: /^(!cleaner)(?:\[([^\]]*)\])?(?:\s+|$)/
@@ -59,17 +59,12 @@ var Cleaner = Cleaner || (function() {
     };
   };
   
-  function RegisterEventHandlers() {
+  function chatEventHandler() {
     on("chat:message", handleInput);
   };
   
-  return {
-    RegisterEventHandlers: RegisterEventHandlers
-  };
+  return {eventHandler: chatEventHandler};
   
 }());
+Rob20.registerEventHandler(Rob20.Cleaner.eventHandler);
 
-on("ready", function() {
-  'use strict';
-  Cleaner.RegisterEventHandlers();
-});

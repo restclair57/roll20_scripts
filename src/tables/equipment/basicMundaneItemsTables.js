@@ -1,5 +1,5 @@
-const alchemicalItemsData = {
-  "name": "alchemicalItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-alchemicalItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -12,10 +12,10 @@ const alchemicalItemsData = {
     [75,88,"[[1d4 tanglefoot bags]]"],
     [89,100,"[[1d4 thunderstones]]"]
   ]
-};
+});
 
-const armorItemsData = {
-  "name": "armorItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-armorItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -25,23 +25,23 @@ const armorItemsData = {
     [27,34,"banded mail"],
     [35,54,"half plate"],
     [55,80,"full plate"],
-    [81,90,"[[1d[darkwoodShieldsItems]]]"],
-    [91,100,"masterwork [[1d[masterworkShieldsItems]]]"]
+    [81,90,"[[1t[Rob20-Tables-Equipment-darkwoodShieldsItems]]]"],
+    [91,100,"masterwork [[1t[Rob20-Tables-Equipment-masterworkShieldsItems]]]"]
   ]
-};
+});
 
-const darkwoodShieldsItemsData = {
-  "name": "darkwoodShieldsItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-darkwoodShieldsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,50,"buckler"],
     [51,100,"shield"]
   ]
-};
+});
 
-const masterworkShieldsItemsData = {
-  "name": "masterworkShieldsItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-masterworkShieldsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -51,21 +51,21 @@ const masterworkShieldsItemsData = {
     [61,83,"heavy wooden shield"],
     [84,100,"heavy steel shield"]
   ]
-};
+});
 
-const weaponsItemsData = {
-  "name": "weaponsItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-weaponsItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,50,"masterwork [[1t[commonMeleeWeaponsItems]]]"],
-    [51,70,"masterwork [[1t[uncommonMeleeWeaponsItems]]]"],
-    [71,100,"masterwork [[1t[commonRangedWeaponsItems]]]"]
+    [1,50,"masterwork [[1t[Rob20-Tables-Equipment-commonMeleeWeaponsItems]]]"],
+    [51,70,"masterwork [[1t[Rob20-Tables-Equipment-uncommonWeaponsItems]]]"],
+    [71,100,"masterwork [[1t[Rob20-Tables-Equipment-commonRangedWeaponsItems]]]"]
   ]
-};
+});
 
-const toolsAndGearItemsData = {
-  "name": "toolsAndGearItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-toolsAndGearItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -90,36 +90,19 @@ const toolsAndGearItemsData = {
     [89,95,"masterwork musical instrument"],
     [96,100,"masterwork thieves’ tools"]
   ]
-};
+});
 
-const mundaneItemsData = {
-  "name": "mundaneItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-Equipment-mundaneItems",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,17,"[[1t[alchemicalItems]]]"],
-    [18,21,"small [[1t[armorItems]]]"],
-    [22,50,"medium [[1t[armorItems]]]"],
-    [51,83,"[[1t[weaponsItems]]]"],
-    [84,100,"[[1t[toolsAndGearItems]]]"]
+    [1,17,"[[1t[Rob20-Tables-Equipment-alchemicalItems]]]"],
+    [18,21,"small [[1t[Rob20-Tables-Equipment-armorItems]]]"],
+    [22,50,"medium [[1t[Rob20-Tables-Equipment-armorItems]]]"],
+    [51,83,"[[1t[Rob20-Tables-Equipment-weaponsItems]]]"],
+    [84,100,"[[1t[Rob20-Tables-Equipment-toolsAndGearItems]]]"]
   ]
-};
-
-on("ready", function() {
-  var basicMundaneItemsTables = [
-    alchemicalItemsData,
-    armorItemsData,
-    darkwoodShieldsItemsData,
-    masterworkShieldsItemsData,
-    weaponsItemsData,
-    toolsAndGearItemsData,
-    mundaneItemsData
-  ];
-  _.each(basicMundaneItemsTables, function(tableData) {
-    RollableTableManager.findOrMake(tableData);
-  });
 });
-
-
 
 

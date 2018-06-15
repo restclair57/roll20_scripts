@@ -1,7 +1,8 @@
-const minorWondrousItems = {
-  "name": "minorWondrousItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-minorWondrousItems",
   "showplayers": false,
-  "simpleEntries": [
+  "entryType": "simple",
+  "entries": [
     "Feather token, anchor",
     "Universal solvent",
     "Elixir of love",
@@ -103,12 +104,13 @@ const minorWondrousItems = {
     "Bag of holding type III",
     "Periapt of health"
   ]
-};
+});
 
-const mediumWondrousItems = {
-  "name": "mediumWondrousItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-mediumWondrousItems",
   "showplayers": false,
-  "simpleEntries": [
+  "entryType": "simple",
+  "entries": [
     "Boots of levitation",
     "Harp of charming",
     "Amulet of natural armor +2",
@@ -210,12 +212,13 @@ const mediumWondrousItems = {
     "Tome of leadership and influence +1",
     "Tome of understanding +1"
   ]
-};
+});
 
-const majorWondrousItems = {
-  "name": "majorWondrousItems",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-majorWondrousItems",
   "showplayers": false,
-  "simpleEntries": [
+  "entryType": "simple",
+  "entries": [
     "Dimensional shackles",
     "Figurine of wondrous power, obsidian steed",
     "Drums of panic",
@@ -317,5 +320,6 @@ const majorWondrousItems = {
     "Mirror of mental prowess",
     "Mirror of life trapping"
   ]
-};
+});
+
 

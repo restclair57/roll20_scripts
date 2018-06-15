@@ -1,6 +1,7 @@
-const mediumMagicRods = {
-  "name": "mediumMagicRods",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-mediumMagicRods",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,7,"Metamagic, Enlarge, lesser"],
     [8,14,"Metamagic, Extend, lesser"],
@@ -20,11 +21,12 @@ const mediumMagicRods = {
     [98,99,"Metamagic, Empower"],
     [100,100,"Metamagic, Quicken, lesser"]
   ]
-};
+});
 
-const majorMagicRods = {
-  "name": "majorMagicRods",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-majorMagicRods",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,4,"Cancellation"],
     [5,6,"Metamagic, Enlarge"],
@@ -56,5 +58,6 @@ const majorMagicRods = {
     [99,99,"Metamagic, Maximize, greater"],
     [100,100,"Metamagic, Quicken, greater"]
   ]
-};
+});
+
 

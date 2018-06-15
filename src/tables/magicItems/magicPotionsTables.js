@@ -1,6 +1,7 @@
-const minorMagicPotions = {
-  "name": "minorMagicPotions",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-minorMagicPotions",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,10,"Cure light wounds (potion)"],
     [11,13,"Endure elements (potion)"],
@@ -44,11 +45,12 @@ const minorMagicPotions = {
     [98,99,"Spider climb (potion)"],
     [100,100,"Cure light wounds (potion)"]
   ]
-};
+});
 
-const mediumMagicPotions = {
-  "name": "mediumMagicPotions",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-mediumMagicPotions",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"Bless weapon (oil)"],
     [3,4,"Enlarge person (potion)"],
@@ -103,11 +105,12 @@ const mediumMagicPotions = {
     [98,99,"Water breathing (potion)"],
     [100,100,"Water walk (potion)"]
   ]
-};
+});
 
-const majorMagicPotions = {
-  "name": "majorMagicPotions",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-majorMagicPotions",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"blur (potion)"],
     [3,7,"cure moderate wounds (potion)"],
@@ -159,4 +162,6 @@ const majorMagicPotions = {
     [99,99,"Greater magic weapon +5 (oil)"],
     [100,100,"Magic vestment +5 (oil)"]
   ]
-};
+});
+
+

@@ -1,4 +1,4 @@
-var RollableTableManager = RollableTableManager || (function () {
+Rob20.RollableTableManager = Rob20.RollableTableManager || (function () {
   
   'use strict';
   
@@ -8,27 +8,23 @@ var RollableTableManager = RollableTableManager || (function () {
   function findOrMake(tableData) {
     var fomObject, tableObject;
     
-    FindOrMakeObjector.setMode("rollabletable");
-    
     fomObject = _.clone(tableData);
     delete fomObject.entries;
     delete fomObject.entryType;
-    tableObject = FindOrMakeObjector.findOrMake(fomObject);
+    tableObject = Rob20.FindOrMakeObjector.findOrMake("rollabletable", fomObject);
     
-    FindOrMakeObjector.setMode("tableitem");
     var minRoll, maxRoll, itemName, weight, entryType;
     entryType = tableData.entryType;
     _.each(tableData.entries, function(itemData) {
       weight = getWeight(itemData, entryType);
-      itemName = _.last(itemData);
-      log(itemData);
-      FindOrMakeObjector.findOrMake({"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
+      itemName = _.isString(itemData) ? itemData : _.last(itemData);
+      // log(itemData);
+      Rob20.FindOrMakeObjector.findOrMake("tableitem", {"name": itemName, "weight": weight, "_rollabletableid": tableObject.id});
     });
     
   };
   
   function getWeight(iData, eType) {
-    log(eType);
     switch(eType) {
       case 'simple': return 1;
       case 'rollWeights': return ((iData[1] - iData[0])+1);
@@ -39,3 +35,4 @@ var RollableTableManager = RollableTableManager || (function () {
   
   return { findOrMake: findOrMake, fOm: findOrMake };
 }());
+

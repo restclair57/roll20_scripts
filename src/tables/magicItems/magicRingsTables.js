@@ -1,6 +1,7 @@
-const minorMagicRings = {
-  "name": "minorMagicRings",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-minorMagicRings",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,18,"Protection +1"],
     [19,28,"Feather falling"],
@@ -13,16 +14,17 @@ const minorMagicRings = {
     [76,80,"Protection +2"],
     [81,85,"Force shield"],
     [86,90,"Ram ([[d50]] charges)"],
-    [91,93,"Animal friendship"]
-    [94,96,"minor Energy resistance"]
-    [97,98,"Chameleon power"]
+    [91,93,"Animal friendship"],
+    [94,96,"minor Energy resistance"],
+    [97,98,"Chameleon power"],
     [99,100,"Water walking"]
   ]
-};
+});
 
-const mediumMagicRings = {
-  "name": "mediumMagicRings",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-mediumMagicRings",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,5,"Counterspells"],
     [6,8,"Mind shielding"],
@@ -44,13 +46,14 @@ const mediumMagicRings = {
     [90,92,"X-ray vision"],
     [93,95,"Blinking"],
     [96,98,"Meld into Stone"],
-    [99,100,"major Energy resistance"],
+    [99,100,"major Energy resistance"]
   ]
-};
+});
 
-const majorMagicRings = {
-  "name": "majorMagicRings",
+Rob20.registerTable({
+  "name": "Rob20-Tables-MagicItems-majorMagicRings",
   "showplayers": false,
+  "entryType": "rollWeights",
   "entries": [
     [1,2,"minor Energy resistance"],
     [3,7,"Protection +3"],
@@ -81,7 +84,8 @@ const majorMagicRings = {
     [97,97,"Elemental command (earth)"],
     [98,98,"Elemental command (fire)"],
     [99,99,"Elemental command (water)"],
-    [100,100,"major Spell storing"],
+    [100,100,"major Spell storing"]
   ]
-};
+});
+
 
