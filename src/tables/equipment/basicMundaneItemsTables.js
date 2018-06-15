@@ -25,8 +25,8 @@ Rob20.registerTable({
     [27,34,"banded mail"],
     [35,54,"half plate"],
     [55,80,"full plate"],
-    [81,90,"[[1d[Rob20.Tables.Equipment.darkwoodShieldsItems]]]"],
-    [91,100,"masterwork [[1d[Rob20.Tables.Equipment.masterworkShieldsItems]]]"]
+    [81,90,"[[1t[Rob20.Tables.Equipment.darkwoodShieldsItems]]]"],
+    [91,100,"masterwork [[1t[Rob20.Tables.Equipment.masterworkShieldsItems]]]"]
   ]
 });
 
