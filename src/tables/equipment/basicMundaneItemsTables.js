@@ -59,7 +59,7 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,50,"masterwork [[1t[Rob20-Tables-Equipment-commonMeleeWeaponsItems]]]"],
-    [51,70,"masterwork [[1t[Rob20-Tables-Equipment-uncommonMeleeWeaponsItems]]]"],
+    [51,70,"masterwork [[1t[Rob20-Tables-Equipment-uncommonWeaponsItems]]]"],
     [71,100,"masterwork [[1t[Rob20-Tables-Equipment-commonRangedWeaponsItems]]]"]
   ]
 });
