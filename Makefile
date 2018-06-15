@@ -6,6 +6,7 @@ R20_HEADER := $(SRC_DIR)/rob20Header.js
 R20_FOOTER := $(SRC_DIR)/rob20Footer.js
 
 TABLES_DIR := $(SRC_DIR)/tables
+TEST_DIR := $(SRC_DIR)/tests
 
 BUILD_DIR := build
 
@@ -19,6 +20,8 @@ MACROS := $(SRC_DIR)/macros.js
 
 CODE_FILES := $(CLEANER) $(ROBS_PLAYER_ID) $(FOM) $(RTM) $(RECURSIVE_TABLES) $(MACROS)
 
+# tests
+TESTER_FILES := $(TEST_DIR)/tableTester.js
 
 # treasure related
 CURRENCY_TREASURE := $(TABLES_DIR)/treasure/*.js
@@ -28,8 +31,11 @@ TREASURE_SOURCES := $(CURRENCY_TREASURE) $(MUNDANE_ITEM_TREASURE) $(MAGIC_ITEM_T
 
 
 
+FULL_APP_FILE = $(BUILD_DIR)/main.js
+TEST_SUITE_FILE = $(BUILD_DIR)/testers.js
+
 all: $(TREASURE_SOURCES)
-	cat $(R20_HEADER) $(CODE_FILES) $(TREASURE_SOURCES) $(R20_FOOTER) > $(BUILD_DIR)/main.js
+	cat $(R20_HEADER) $(CODE_FILES) $(TREASURE_SOURCES) $(R20_FOOTER) > $(FULL_APP_FILE)
 
 
 treasures: $(TREASURE_SOURCES)
@@ -38,4 +44,7 @@ treasures: $(TREASURE_SOURCES)
 
 scriptor: $(CODE_FILES)
 	cat $(R20_HEADER) $(CODE_FILES) $(R20_FOOTER) > $(BUILD_DIR)/scriptor.js
+
+testers: $(TESTER_FILES)
+	cat $(TESTER_FILES) > $(TEST_SUITE_FILE)
 
