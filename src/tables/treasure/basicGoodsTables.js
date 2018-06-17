@@ -26,8 +26,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,77,""],
-    [78,95,"[[[[1d3]][Rob20-Tables-Treasure-basicGems]]]"],
-    [96,100,"[[[[1d3]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [78,95,"[[[[1d3]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [96,100,"[[[[1d3]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -37,8 +37,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,70,""],
-    [71,95,"[[[[1d4]][Rob20-Tables-Treasure-basicGems]]]"],
-    [96,100,"[[[[1d3]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [71,95,"[[[[1d4]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [96,100,"[[[[1d3]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -48,8 +48,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,60,""],
-    [61,95,"[[[[1d4]][Rob20-Tables-Treasure-basicGems]]]"],
-    [96,100,"[[[[1d4]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [61,95,"[[[[1d4]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [96,100,"[[[[1d4]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -59,8 +59,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,56,""],
-    [57,92,"[[[[1d4]][Rob20-Tables-Treasure-basicGems]]]"],
-    [93,100,"[[[[1d4]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [57,92,"[[[[1d4]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [93,100,"[[[[1d4]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -70,8 +70,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,48,""],
-    [49,88,"[[[[1d4]][Rob20-Tables-Treasure-basicGems]]]"],
-    [89,100,"[[[[1d4]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [49,88,"[[[[1d4]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [89,100,"[[[[1d4]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -81,8 +81,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,45,""],
-    [46,85,"[[[[1d6]][Rob20-Tables-Treasure-basicGems]]]"],
-    [86,100,"[[[[1d4]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [46,85,"[[[[1d6]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [86,100,"[[[[1d4]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -92,8 +92,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,40,""],
-    [41,80,"[[[[1d8]][Rob20-Tables-Treasure-basicGems]]]"],
-    [81,100,"[[[[1d4]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [41,80,"[[[[1d8]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [81,100,"[[[[1d4]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -103,8 +103,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,35,""],
-    [36,79,"[[[[1d8]][Rob20-Tables-Treasure-basicGems]]]"],
-    [80,100,"[[[[1d6]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [36,79,"[[[[1d8]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [80,100,"[[[[1d6]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -114,8 +114,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,24,""],
-    [25,74,"[[[[1d10]][Rob20-Tables-Treasure-basicGems]]]"],
-    [75,100,"[[[[1d6]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [25,74,"[[[[1d10]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [75,100,"[[[[1d6]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -125,8 +125,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,17,""],
-    [18,70,"[[[[1d10]][Rob20-Tables-Treasure-basicGems]]]"],
-    [71,100,"[[[[1d8]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [18,70,"[[[[1d10]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [71,100,"[[[[1d8]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -136,8 +136,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,11,""],
-    [12,66,"[[[[1d12]][Rob20-Tables-Treasure-basicGems]]]"],
-    [67,100,"[[[[1d10]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [12,66,"[[[[1d12]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [67,100,"[[[[1d10]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -147,8 +147,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,11,""],
-    [12,66,"[[[[2d8]][Rob20-Tables-Treasure-basicGems]]]"],
-    [67,100,"[[[[2d6]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [12,66,"[[[[2d8]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [67,100,"[[[[2d6]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -158,8 +158,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,9,""],
-    [10,65,"[[[[2d10]][Rob20-Tables-Treasure-basicGems]]]"],
-    [66,100,"[[[[2d8]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [10,65,"[[[[2d10]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [66,100,"[[[[2d8]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -169,8 +169,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,7,""],
-    [8,64,"[[[[4d6]][Rob20-Tables-Treasure-basicGems]]]"],
-    [65,100,"[[[[2d10]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [8,64,"[[[[4d6]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [65,100,"[[[[2d10]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -180,8 +180,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,4,""],
-    [5,63,"[[[[4d8]][Rob20-Tables-Treasure-basicGems]]]"],
-    [64,100,"[[[[3d8]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [5,63,"[[[[4d8]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [64,100,"[[[[3d8]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -191,8 +191,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,4,""],
-    [5,54,"[[[[3d12]][Rob20-Tables-Treasure-basicGems]]]"],
-    [55,100,"[[[[3d10]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [5,54,"[[[[3d12]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [55,100,"[[[[3d10]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -202,8 +202,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,3,""],
-    [4,50,"[[[[6d6]][Rob20-Tables-Treasure-basicGems]]]"],
-    [51,100,"[[[[6d6]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [4,50,"[[[[6d6]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [51,100,"[[[[6d6]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
@@ -213,8 +213,8 @@ Rob20.registerTable({
   "entryType": "rollWeights",
   "entries": [
     [1,2,""],
-    [3,38,"[[[[4d10]][Rob20-Tables-Treasure-basicGems]]]"],
-    [39,100,"[[[[7d6]][Rob20-Tables-Treasure-basicArtObjects]]]"]
+    [3,38,"[[[[4d10]]t[Rob20-Tables-Treasure-basicGems]]]"],
+    [39,100,"[[[[7d6]]t[Rob20-Tables-Treasure-basicArtObjects]]]"]
   ]
 });
 
