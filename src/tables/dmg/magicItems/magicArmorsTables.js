@@ -1,19 +1,19 @@
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicArmorAndShields",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicArmorAndShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,60,"+1 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"],
-    [61,80,"+1 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"],
-    [81,85,"+2 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"],
-    [86,87,"+2 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"],
-    [88,89,"[[1t[Rob20-Tables-MagicItems-minorMagicArmors]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"],
-    [90,91,"[[1t[Rob20-Tables-MagicItems-minorMagicShields]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"]
+    [1,60,"+1 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"],
+    [61,80,"+1 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"],
+    [81,85,"+2 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"],
+    [86,87,"+2 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"],
+    [88,89,"[[1t[Rob20-Tables-Dmg-MagicItems-minorMagicArmors]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"],
+    [90,91,"[[1t[Rob20-Tables-Dmg-MagicItems-minorMagicShields]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicArmors",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -24,7 +24,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicShields",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -36,17 +36,17 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,91,""],
-    [92,100,"[[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"]
+    [92,100,"[[1t[Rob20-Tables-Dmg-MagicItems-minorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicArmorAbilities",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicArmorAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -59,22 +59,22 @@ Rob20.registerTable({
     [97,97,"Slick, improved"],
     [98,98,"Shadow, improved"],
     [99,99,"Silent moves, improved"],
-    [100,100,"[[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilities]]]"]
+    [100,100,"[[1t[Rob20-Tables-Dmg-MagicItems-minorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicArmorAbilities]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,91,""],
-    [92,100,"[[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"]
+    [92,100,"[[1t[Rob20-Tables-Dmg-MagicItems-minorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicShieldAbilities",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicShieldAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -85,32 +85,32 @@ Rob20.registerTable({
     [76,92,"Arrow deflection"],
     [93,97,"Animated"],
     [98,99,"Spell resistance (13)"],
-    [100,100,"[[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilities]]]"]
+    [100,100,"[[1t[Rob20-Tables-Dmg-MagicItems-minorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-minorMagicShieldAbilities]]]"]
   ]
 });
 
 
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicArmorAndShields",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicArmorAndShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,5,"+1 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
-    [6,10,"+1 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
-    [11,20,"+2 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
-    [21,30,"+2 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
-    [31,40,"+3 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
-    [41,50,"+3 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
-    [51,55,"+4 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
-    [56,57,"+4 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
-    [58,60,"[[1t[Rob20-Tables-MagicItems-mediumMagicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
-    [61,63,"[[1t[Rob20-Tables-MagicItems-mediumMagicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"]
+    [1,5,"+1 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
+    [6,10,"+1 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
+    [11,20,"+2 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
+    [21,30,"+2 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
+    [31,40,"+3 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
+    [41,50,"+3 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
+    [51,55,"+4 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"],
+    [56,57,"+4 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
+    [58,60,"[[1t[Rob20-Tables-Dmg-MagicItems-mediumMagicArmors]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"],
+    [61,63,"[[1t[Rob20-Tables-Dmg-MagicItems-mediumMagicShields]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicArmors",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -125,7 +125,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicShields",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -140,17 +140,17 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,63,""],
-    [64,100,"[[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"]
+    [64,100,"[[1t[Rob20-Tables-Dmg-MagicItems-mediumMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicArmorAbilities",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicArmorAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -173,22 +173,22 @@ Rob20.registerTable({
     [85,89,"Fortification, moderate"],
     [90,94,"Spell resistance (15)"],
     [95,99,"Wild"],
-    [100,100,"[[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilities]]]"]
+    [100,100,"[[1t[Rob20-Tables-Dmg-MagicItems-mediumMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicArmorAbilities]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,63,""],
-    [64,100,"[[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"]
+    [64,100,"[[1t[Rob20-Tables-Dmg-MagicItems-mediumMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicShieldAbilities",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicShieldAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -208,30 +208,30 @@ Rob20.registerTable({
     [86,95,"Fortification, moderate"],
     [96,98,"Spell resistance (15)"],
     [99,99,"Wild"],
-    [100,100,"[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilities]]]"]
+    [100,100,"[1t[Rob20-Tables-Dmg-MagicItems-mediumMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-mediumMagicShieldAbilities]]]"]
   ]
 });
 
 
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicArmorAndShields",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicArmorAndShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
-    [1,8,"+3 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"],
-    [9,16,"+3 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
-    [17,27,"+4 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"],
-    [28,38,"+4 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
-    [39,49,"+5 [[1t[Rob20-Tables-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"],
-    [50,57,"+5 [[1t[Rob20-Tables-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
-    [58,60,"[[1t[Rob20-Tables-MagicItems-majorMagicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
-    [61,63,"[[1t[Rob20-Tables-MagicItems-majorMagicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"]
+    [1,8,"+3 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"],
+    [9,16,"+3 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
+    [17,27,"+4 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"],
+    [28,38,"+4 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
+    [39,49,"+5 [[1t[Rob20-Tables-Dmg-Equipment-basicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"],
+    [50,57,"+5 [[1t[Rob20-Tables-Dmg-Equipment-basicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
+    [58,60,"[[1t[Rob20-Tables-Dmg-MagicItems-majorMagicArmors]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"],
+    [61,63,"[[1t[Rob20-Tables-Dmg-MagicItems-majorMagicShields]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicArmors",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicArmors",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -247,7 +247,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicShields",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicShields",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -261,17 +261,17 @@ Rob20.registerTable({
 
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicArmorAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,63,""],
-    [64,100,"[[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"]
+    [64,100,"[[1t[Rob20-Tables-Dmg-MagicItems-majorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicArmorAbilities",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicArmorAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -308,22 +308,22 @@ Rob20.registerTable({
     [97,97,"Electricity resistance, greater"],
     [98,98,"Fire resistance, greater"],
     [99,99,"Sonic resistance, greater"],
-    [100,100,"[[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilities]]]"]
+    [100,100,"[[1t[Rob20-Tables-Dmg-MagicItems-majorMagicArmorAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicArmorAbilities]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicShieldAbilitiesGateway",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
     [1,63,""],
-    [64,100,"[[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"]
+    [64,100,"[[1t[Rob20-Tables-Dmg-MagicItems-majorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilitiesGateway]]]"]
   ]
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicShieldAbilities",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicShieldAbilities",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -357,7 +357,7 @@ Rob20.registerTable({
     [97,97,"Electricity resistance, greater"],
     [98,98,"Fire resistance, greater"],
     [99,99,"Sonic resistance, greater"],
-    [100,100,"[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilities]]]"]
+    [100,100,"[1t[Rob20-Tables-Dmg-MagicItems-majorMagicShieldAbilities]]] [[1t[Rob20-Tables-MagicItems-majorMagicShieldAbilities]]]"]
   ]
 });
 

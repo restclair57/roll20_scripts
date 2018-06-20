@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicWands",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicWands",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -43,7 +43,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicWands",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicWands",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -91,7 +91,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicWands",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicWands",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
