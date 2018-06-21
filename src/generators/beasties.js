@@ -7,34 +7,34 @@ Rob20.Generators.Beasties = Rob20.Generators.Beasties || (function() {
       name: {
         required: true
       },
-      strength: {
-        required: true
-      },
-      dex: {
-        required: true
-      },
-      con: {
-        required: true
-      },
-      int: {
-        required: true
-      },
-      wis: {
-        required: true
-      },
-      cha: {
-        required: true
-      },
-      hdType: {
-        required: true
-      },
-      numHd: {
-        required: true
-      },
-      natArmor: {
-        required: false
-      },
-    
+      attributes: {
+        properties: {
+          str: {
+            required: true
+          },
+          dex: {
+            required: true
+          },
+          con: {
+            required: true
+          },
+          int: {
+            required: true
+          },
+          wis: {
+            required: true
+          },
+          cha: {
+            required: true
+          },
+          hitdie: {
+            required: true
+          },
+          naturalarmor1bonus: {
+            required: false
+          },
+        }
+      }
     }
   };
   
