@@ -55,3 +55,6 @@ var Rob20 = Rob20 || (function() {
   
 }());
 
+if(typeof module !== 'undefined') {
+  module.exports = Rob20;
+};
