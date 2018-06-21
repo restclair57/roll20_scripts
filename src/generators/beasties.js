@@ -1,3 +1,4 @@
+var fs = require('fs');
 var Rob20 = require('../rob20Header.js');
 Rob20.Generators = Rob20.Generators || {};
 Rob20.Generators.CharacterGenerator = require('./characterGenerator.js');
@@ -43,5 +44,7 @@ Rob20.Generators.Beasties = Rob20.Generators.Beasties || (function() {
 
 
 if(require.main === module) {
-  Rob20.Generators.CharacterGenerator.getSchema(Rob20.Generators.Beasties.schema, "build/beasties.js");
+  var destinationDir = "./src/generated/" + process.argv[2];
+  fs.existsSync(destinationDir) || fs.mkdirSync(destinationDir);
+  Rob20.Generators.CharacterGenerator.getSchema(Rob20.Generators.Beasties.schema, destinationDir + "/beasties.js");
 };
