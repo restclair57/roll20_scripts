@@ -26,6 +26,7 @@ Rob20.Generators.CharacterGenerator = Rob20.Generators.CharacterGenerator || (fu
       outString = `Rob20.registerCharacter(${JSON.stringify(accumulatedData[i], null, 2)});\n\n`;
       fs.appendFile(outFile, outString, (err)=>{console.log(err)});
     };
+    fs.appendFile(outString, "\n\n", (err)=>{console.log(err)});
   };
   
   return {getSchema: getSchema};
