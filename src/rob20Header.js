@@ -65,7 +65,8 @@ var Rob20 = Rob20 || (function() {
   var objectRefs = {
     onReady: onReady,
     registerEventHandler: registerEventHandler,
-    registerTable: registerTable
+    registerTable: registerTable,
+    registerCharacter: registerCharacter
   }
   
   return objectRefs;
