@@ -20,9 +20,12 @@ RECURSIVE_TABLES := $(SRC_DIR)/recursiveTable.js
 FOM := $(SRC_DIR)/findOrMakeObjector.js
 RTM := $(SRC_DIR)/rollableTableManager.js
 MACROS := $(SRC_DIR)/macros.js
+CHAR_MGR := $(SRC_DIR)/characterManager.js
+ATTR_MGR := $(SRC_DIR)/attributeManager.js
 TREASURE_ROLLER := $(SRC_DIR)/treasureRoller.js
 
-CODE_FILES := $(CLEANER) $(ROBS_PLAYER_ID) $(FOM) $(RTM) $(RECURSIVE_TABLES) $(MACROS) $(TREASURE_ROLLER)
+CODE_FILES := $(CLEANER) $(ROBS_PLAYER_ID) $(FOM) $(RTM) $(RECURSIVE_TABLES) $(MACROS)\
+$(TREASURE_ROLLER) $(CHAR_MGR) $(ATTR_MGR)
 
 # tests
 TESTER_FILES := $(TEST_DIR)/tableTester.js
