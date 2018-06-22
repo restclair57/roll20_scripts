@@ -1,10 +1,11 @@
-Rob20.AttributeManager = Rob20.CharacterManager || (function() {
+Rob20.AttributeManager = Rob20.AttributeManager || (function() {
   
   function findOrMake(characterObj, attrName, attrVal) {
-    var attr = Object.assign({"characterid": characterObj.id}, attrData);
-    return Rob20.FindOrMakeObjector.findOrMake(attr);
+    var attrData = {name: attrName, current: attrVal, max: attrVal, characterid: characterObj.id};
+    return Rob20.FindOrMakeObjector.findOrMake("attribute", attrData);
   };
   
   
   return {findOrMake: findOrMake};
 }());
+
