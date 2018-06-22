@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicPotions",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicPotions",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -48,7 +48,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicPotions",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicPotions",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -108,7 +108,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicPotions",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicPotions",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [

@@ -2,6 +2,7 @@ var Rob20 = Rob20 || (function() {
   
   var registeredEventHandlers = [];
   var registeredTables = {};
+  var registeredCharacters = {};
   
   function registerEventHandler(eHandler) {
     registeredEventHandlers.push(eHandler);
@@ -16,6 +17,15 @@ var Rob20 = Rob20 || (function() {
     registeredTables[tableData.name] = tableData;
     return null;
   };
+  
+  function registerCharacter(charData) {
+    if(_.contains(_.keys(registeredCharacters), charData.name)) {
+      log("duplicate character name found: '" + charData.name + "'");
+      return null;
+    };
+    registeredCharacters[charData.name] = charData;
+    return null;
+  }
   
   function _registerKnownEventHandlers() {
     _.each(registeredEventHandlers, function(eHandler) {
@@ -37,17 +47,26 @@ var Rob20 = Rob20 || (function() {
     });
   };
   
+  function _registerCharacters() {
+    _.each(_.keys(registeredCharacters), function(charName) {
+      Rob20.CharacterManager.findOrMake(registeredCharacters[charName]);
+    });
+    return null;
+  };
+  
   
   function onReady() {
     _registerKnownEventHandlers();
     _registerTables();
     _registerMacros();
+    _registerCharacters();
   };
   
   var objectRefs = {
     onReady: onReady,
     registerEventHandler: registerEventHandler,
-    registerTable: registerTable
+    registerTable: registerTable,
+    registerCharacter: registerCharacter
   }
   
   return objectRefs;
@@ -55,3 +74,6 @@ var Rob20 = Rob20 || (function() {
   
 }());
 
+if(typeof module !== 'undefined') {
+  module.exports = Rob20;
+};

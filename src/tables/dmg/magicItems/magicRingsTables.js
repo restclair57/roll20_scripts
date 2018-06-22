@@ -1,5 +1,5 @@
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-minorMagicRings",
+  "name": "Rob20-Tables-Dmg-MagicItems-minorMagicRings",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -22,7 +22,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-mediumMagicRings",
+  "name": "Rob20-Tables-Dmg-MagicItems-mediumMagicRings",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
@@ -51,7 +51,7 @@ Rob20.registerTable({
 });
 
 Rob20.registerTable({
-  "name": "Rob20-Tables-MagicItems-majorMagicRings",
+  "name": "Rob20-Tables-Dmg-MagicItems-majorMagicRings",
   "showplayers": false,
   "entryType": "rollWeights",
   "entries": [
