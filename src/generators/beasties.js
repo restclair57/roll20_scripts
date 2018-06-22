@@ -44,7 +44,7 @@ Rob20.Generators.Beasties = Rob20.Generators.Beasties || (function() {
 
 
 if(require.main === module) {
-  var destinationDir = "./src/generated/" + process.argv[2];
+  var destinationDir = "./src/generated/" + process.argv[2] + "/characters";
   fs.existsSync(destinationDir) || fs.mkdirSync(destinationDir);
   Rob20.Generators.CharacterGenerator.getSchema(Rob20.Generators.Beasties.schema, destinationDir + "/beasties.js");
 };
