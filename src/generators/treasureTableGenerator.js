@@ -67,7 +67,6 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
   }
   
   
-  
   var tables = [];
   var worldName;
   
@@ -78,7 +77,6 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
   
   function generateTable() {
     prompt.get(tableSchema, function(err, results) {
-      console.log(results);
       var tbl = results;
       tbl["entries"] = [];
       getRow(tbl);
@@ -86,7 +84,6 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
   };
   
   function getRow(tbl) {
-    console.log(tbl.entryType);
     switch(tbl.entryType) {
       case "simple": getSimpleRow(tbl); break;
       case "rollWeights": getRollWeightsRow(tbl); break;
@@ -105,7 +102,6 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
   
   function getRollWeightsRow(tbl) {
     prompt.get(rollWeightRowSchema, function(err, results){
-      // var line = "[" + results["minRoll"] + "," + results["maxRoll"] + ',"' + results["entry"] + '"]';
       var line = [results["minRoll"], results["maxRoll"], results["entry"]];
       tbl["entries"].push(line);
       if(results["maxRoll"] !== 100) {
@@ -118,7 +114,6 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
   };
   
   function getSpecifiedWeightsRow(tbl) {
-    console.log('here');
     prompt.get(specifiedWeightRowSchema, function(err, results) {
       if(results["weight"] !== 0) {
         var line = "[" + results["weight"] + ', "' + results["entry"] + '"]';
