@@ -69,11 +69,12 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   
   
   var tables = [];
-  var worldName, tableGroup;
+  var worldName, tableGroup, tableSubGroup;
   
-  function generate(worldNameParam, tableGroupParam) {
+  function generate(worldNameParam, tableGroupParam, tableSubGroupParam) {
     Rob20.Generators.TableGenerator.worldName = worldNameParam;
     Rob20.Generators.TableGenerator.tableGroup = tableGroupParam;
+    Rob20.Generators.TableGenerator.tableSubGroup = tableSubGroupParam;
     generateTable();
   };
   
@@ -141,18 +142,19 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   function writeFile() {
     var worldDir = "./src/generated/" + Rob20.Generators.TableGenerator.worldName;
     fs.existsSync(worldDir) || fs.mkdirSync(worldDir);
-    var destinationDir =  worldDir + "/tables";
+    var worldTablesDir =  worldDir + "/tables";
+    fs.existsSync(worldTablesDir) || fs.mkdirSync(worldTablesDir);
+    var destinationDir = worldTablesDir + "/" + Rob20.Generators.TableGenerator.tableGroup;
     fs.existsSync(destinationDir) || fs.mkdirSync(destinationDir);
-    var outFile = destinationDir + "/" + Rob20.Generators.TableGenerator.tableGroup + "Tables.js";
-    fs.writeFile(outFile, "", (err)=>{});
+    var outFile = destinationDir + "/" + Rob20.Generators.TableGenerator.tableSubGroup + "Tables.js";
     
     var outString;
     
     for(var i=0; i<tables.length; i++) {
       outString = `Rob20.registerTable(${JSON.stringify(tables[i], null, 2)});\n\n`;
-      fs.appendFile(outFile, outString, (err)=>{console.log(err)});
+      fs.appendFile(outFile, outString, (err) => { if(err) console.log(err) });
     };
-    fs.appendFile(outFile, "\n\n", (err)=>{console.log(err)});
+    fs.appendFile(outFile, "\n\n", (err) => { if(err) console.log(err) });
   };
   
   return {generate: generate};
@@ -161,5 +163,5 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
 
 
 if(require.main === module) {
-  Rob20.Generators.TableGenerator.generate(process.argv[2], process.argv[3]);
+  Rob20.Generators.TableGenerator.generate(process.argv[2], process.argv[3], process.argv[4]);
 };
