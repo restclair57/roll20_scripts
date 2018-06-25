@@ -1,6 +1,6 @@
 var Rob20 = require('../rob20Header.js');
 Rob20.Generators = Rob20.Generators || {};
-Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerator || (function(){
+Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function(){
   var prompt = require('prompt');
   var fs = require('fs');
   
@@ -160,5 +160,5 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
 
 
 if(require.main === module) {
-  Rob20.Generators.TreasureTableGenerator.generate(process.argv[2]);
+  Rob20.Generators.TableGenerator.generate(process.argv[2]);
 };
