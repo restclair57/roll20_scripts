@@ -16,7 +16,7 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
     properties: {
       name: {
         required: true,
-        before: (v) => {return `Rob20-Tables-${Rob20.Generators.TreasureTableGenerator.worldName}-Treasure-${v}`}
+        before: (v) => {return `Rob20-Tables-${Rob20.Generators.TableGenerator.worldName}-${Rob20.Generators.TableGenerator.tableGroup}-${v}`}
       },
       showplayers: {
         required: true,
@@ -69,10 +69,11 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   
   
   var tables = [];
-  var worldName;
+  var worldName, tableGroup;
   
-  function generate(worldNameParam) {
-    Rob20.Generators.TreasureTableGenerator.worldName = worldNameParam;
+  function generate(worldNameParam, tableGroupParam) {
+    Rob20.Generators.TableGenerator.worldName = worldNameParam;
+    Rob20.Generators.TableGenerator.tableGroup = tableGroupParam;
     generateTable();
   };
   
@@ -138,11 +139,11 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   };
   
   function writeFile() {
-    var worldDir = "./src/generated/" + Rob20.Generators.TreasureTableGenerator.worldName;
+    var worldDir = "./src/generated/" + Rob20.Generators.TableGenerator.worldName;
     fs.existsSync(worldDir) || fs.mkdirSync(worldDir);
     var destinationDir =  worldDir + "/tables";
     fs.existsSync(destinationDir) || fs.mkdirSync(destinationDir);
-    var outFile = destinationDir + "/treasureTables.js";
+    var outFile = destinationDir + "/" + Rob20.Generators.TableGenerator.tableGroup + "Tables.js";
     fs.writeFile(outFile, "", (err)=>{});
     
     var outString;
@@ -160,5 +161,5 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
 
 
 if(require.main === module) {
-  Rob20.Generators.TableGenerator.generate(process.argv[2]);
+  Rob20.Generators.TableGenerator.generate(process.argv[2], process.argv[3]);
 };
