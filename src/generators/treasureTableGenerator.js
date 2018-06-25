@@ -15,7 +15,8 @@ Rob20.Generators.TreasureTableGenerator = Rob20.Generators.TreasureTableGenerato
   const tableSchema = {
     properties: {
       name: {
-        required: true
+        required: true,
+        before: (v) => {return `Rob20-Tables-${Rob20.Generators.TreasureTableGenerator.worldName}-Treasure-${v}`}
       },
       showplayers: {
         required: true,
