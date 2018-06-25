@@ -62,7 +62,9 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   const simpleWeightRowSchema = {
     properties: {
       entry: {
-        required: true
+        required: true,
+        type: 'string',
+        before: (v) => { var ary=v.split(';'); return ary;}
       }
     }
   }
@@ -96,8 +98,7 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   
   function getSimpleRow(tbl) {
     prompt.get(simpleWeightRowSchema, function(err, results) {
-      var line = "[" + results + "]";
-      tbl["entries"].push(line);
+      tbl["entries"].push(results);
       tables.push(tbl);
       getContinue();
     });
@@ -119,7 +120,7 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   function getSpecifiedWeightsRow(tbl) {
     prompt.get(specifiedWeightRowSchema, function(err, results) {
       if(results["weight"] !== 0) {
-        var line = "[" + results["weight"] + ', "' + results["entry"] + '"]';
+        var line = [results["weight"], results["entry"]];
         tbl["entries"].push(line);
         getSpecifiedWeightsRow(tbl);
       } else {
