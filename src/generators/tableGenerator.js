@@ -1,16 +1,11 @@
 var Rob20 = require('../rob20Header.js');
-Rob20.Generators = Rob20.Generators || {};
+Rob20.Generators = require('./generators.js');
+
 Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function(){
   var prompt = require('prompt');
   var fs = require('fs');
   
-  const continueSchema = {
-    properties: {
-      continue: {
-        default: 'y'
-      }
-    }
-  };
+
   
   const tableSchema = {
     properties: {
@@ -131,12 +126,10 @@ Rob20.Generators.TableGenerator = Rob20.Generators.TableGenerator || (function()
   };
   
   function getContinue() {
-    prompt.get(continueSchema, (err,results) => {
-      if(results.continue.toLowerCase().indexOf('y') !== -1) {
-        generateTable();
-      } else {
-        writeFile();
-      };
+    Rob20.Generators.shouldContinue(() => {
+      generateTable();
+    }, () => {
+      writeFile();
     });
   };
   
