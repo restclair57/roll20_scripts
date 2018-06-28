@@ -10,9 +10,13 @@ Rob20.Generators = Rob20.Generators || (function() {
     }
   };
   
-  function shouldContinue() {
+  function shouldContinue(yea, nea) {
     prompt.get(continueSchema, (err,results) => {
-      return results.continue.toLowerCase().indexOf('y') !== -1;
+      if(results.continue.toLowerCase().indexOf('y') !== -1) {
+        yea.call();
+      } else {
+        nea.call();
+      };
     });
   };
   
