@@ -37,8 +37,7 @@ DMG_MAGIC_ITEM_TREASURE := $(DMG_TABLES_DIR)/magicItems/*.js
 DMG_TREASURE_SOURCES := $(DMG_CURRENCY_TREASURE) $(DMG_MUNDANE_ITEM_TREASURE) $(DMG_MAGIC_ITEM_TREASURE)
 
 # world related
-WORLD_GENERATED_FILES := $(wildcard $(SRC_DIR)/generated/$(WORLD)/*.js) $(wildcard $(SRC_DIR)/generated/$(WORLD)/**/*.js)
-WORLD_TABLES := $(wildcard $(TABLES_DIR)/$(WORLD)/*.js) $(wildcard $(TABLES_DIR)/$(WORLD)/**/*.js)
+WORLD_GENERATED_FILES := $(shell find $(SRC_DIR)/generated/$(WORLD) -name "*.js")
 
 FULL_APP_FILE := $(BUILD_DIR)/$(WORLD)_main.js
 TEST_SUITE_FILE := $(BUILD_DIR)/$(WORLD)_testers.js

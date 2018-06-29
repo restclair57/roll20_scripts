@@ -1,6 +1,6 @@
-var fs = require('fs');
+const fs = require('fs');
 var Rob20 = require('../rob20Header.js');
-Rob20.Generators = Rob20.Generators || {};
+Rob20.Generators = require('./generators.js');
 Rob20.Generators.CharacterGenerator = require('./characterGenerator.js');
 Rob20.Generators.Beasties = Rob20.Generators.Beasties || (function() {
   const schema = {
